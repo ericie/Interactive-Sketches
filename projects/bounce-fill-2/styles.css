@@ -1,0 +1,31 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+#explain {
+	width:150px;
+	left:0px;
+	top:0px;
+	position:absolute;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	color:black;
+}
+
+a {
+	color: #d90051;
+}
+
+a:hover {
+	background-color: #ffff60;
+}
+
+span {
+	background-color:white;
+}
+
+p {
+	display:inline;
+	margin-top:20px;
+	background-color:white;
+}

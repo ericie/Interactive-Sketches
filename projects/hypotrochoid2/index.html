@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+    	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load("jquery", "1.5.1");
+			google.load("jqueryui", "1.8.10");
+		</script>
+				
+		<script src="scripts/adapted.lines.js" type="text/javascript"></script>
+		<script src="scripts/adapted.library.js" type="text/javascript"></script>
+		<script src="scripts/adapted.shapes.js" type="text/javascript"></script>
+		<script src="scripts/nihilogic.base64.js" type="text/javascript"></script>
+		<script src="scripts/nihilogic.canvas2image.js" type="text/javascript"></script>
+		<script>
+			//get a reference to the canvas
+			$(document).ready(function() {
+				init();
+
+			});	
+		</script>
+		
+		<link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen, projection"/>		
+        <title>Hypotrochoid, a fancy name for Spirograph</title>
+
+    </head>
+	
+	
+    <body class="index">
+    	<canvas height="700" width="700" id="canvas">&nbsp;</canvas>
+    	
+		<div id="explain" class="draggable">
+
+
+<!-- 
+
+var _steps				= 1000;			// Divide a circle this many times
+var _R					= 50;			// The major ripple
+var _r					= 0.25;			// The minor ripple
+var _p					= 25;			// Radius type effect
+var _m					= 1;			// Angle multiplier
+var _amplitude			= 2.5;			// Scale of final drawing
+
+var _opacity			= 0.2;			// Line opacity
+var _color1				= 0x000000;		// Line start colour
+var _color2				= 0x000000;		// Line end colour
+var _thickness			= 1;			// Line thickness
+
+var section_length		= 10;			// Number of sections for each line
+-->
+				<h2>Controls</h2>
+				<form>
+					<label for="inSteps">Stepsss</label>
+					<input name="inSteps" id="inSteps" placeholder="1000">
+					<label for="inScale">Scale</label>
+					<input name="inScale" id="inScale" placeholder="2.5">
+					<label for="inMajor">Major Ripple</label>
+					<input name="inMajor" id="inMajor" placeholder="50">
+					<label for="inMinor">Minor Ripple</label>
+					<input name="inMinor" id="inMinor" placeholder="0.25">
+					<label for="inRadius">Radius Type</label>
+					<input name="inRadius" id="inRadius" placeholder="25">
+					<label for="inAngMult">Angle Multiplier</label>
+					<input name="inAngMult" id="inAngMult" placeholder="0.25">
+					<label for="inRed">Red</label>
+					<input name="inRed" id="inRed" placeholder="255">
+					<label for="inGreen">Green</label>
+					<input name="inGreen" id="inGreen" placeholder="255">
+					<label for="inBlue">Blue</label>
+					<input name="inBlue" id="inBlue" placeholder="0">
+					<label for="inAlpha">Alpha</label>
+					<input name="inAlpha" id="inAlpha" placeholder=".2">
+					
+				</form>	
+				<button>Save It</button>
+				<h3>Saved Images:</h3><br/>
+				<span class="smallType">(right click to download)</span>
+				<div id="savedImages"></div>		
+		</div>
+		
+    </body>
+</html>

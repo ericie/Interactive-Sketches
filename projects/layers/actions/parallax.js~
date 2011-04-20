@@ -1,0 +1,56 @@
+var paraTime = 0;
+var frameTime = 30;
+var bg0Speed = 0;
+var bg1Speed = 0;
+var bg2Speed = 0;
+
+function startParallax(){
+	paraTime = setInterval( "doParallax()", frameTime );
+}
+function doParallax ( )
+{
+
+	var bg0p = $('.bg0').position();
+	var bg0 =  $('.bg0');
+	var bg1p = $('.bg1').position();
+	var bg1 =  $('.bg1');
+	var bg2p = $('.bg2').position();
+	var bg2 =  $('.bg2');
+	
+	//var top1Num = ( ($(window).scrollTop() * 1));
+	//var top2Num = ( ($(window).scrollTop() * 1) );
+	
+	bg1Speed = getSpeed(bg1Speed, bg1, bg1p, 1, .9);
+	var bg1Y = bg1p.top + bg1Speed;
+	
+	bg2Speed = getSpeed(bg2Speed, bg2, bg2p, 1, .1);
+	var bg2Y = bg1p.top + bg2Speed;
+	
+	//log(bg1Speed + "   " + bg1p.top);
+	$(".bg1").css({top: $(window).scrollTop() + 'px'});	
+	$(".bg2").css({top: bg2Y + 'px'});	
+	//$(".content").css({top: bg2Y + 'px'});
+}
+
+function getSpeed(_curSpeed, _you, _pos, _a, _paraRate){
+	var yourSpeed = 0;
+	var topNum = $(window).scrollTop() * _paraRate;
+	
+	var targSpeed = (topNum - _pos.top) / 2;
+	var accell = _a;
+	
+	if (Math.abs(targSpeed) > Math.abs(_curSpeed) ){
+		if (targSpeed > 0){ 
+			_curSpeed += _a; 
+		} else {
+			_curSpeed -= _a; 
+		}
+		
+	} else {
+		_curSpeed = targSpeed;
+	}
+		
+	
+	yourSpeed = _curSpeed;
+	return yourSpeed;
+}

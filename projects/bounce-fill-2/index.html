@@ -1,0 +1,23 @@
+<html>
+ <head>
+	
+	<style type="text/css"> @import "styles.css"; </style>
+	<script type="text/javascript" src="library.js"></script>
+	<script type="text/javascript" src="particle.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("jquery", "1");</script>
+	<title>Bouncing Arcs</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			init();
+			initParticleSystem();
+			$(window).resize(resizeCanvas);
+		});
+	</script>
+	
+</head>
+<body>
+	<canvas id="canvas" width="300" height="300"></canvas>
+
+</body>
+</html>

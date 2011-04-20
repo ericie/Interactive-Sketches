@@ -1,0 +1,69 @@
+body {
+	background-color: #000000;
+	color:white;
+	padding:0px;
+	margin:0px;
+	word-spacing:.06em;
+}
+
+#canvas {
+	position:absolute;
+	top:0px;
+	background-color:#666666;
+}
+
+#explain {
+	width:130px;
+	right:0px;
+	padding:20px;
+	bottom:0px;
+	position:absolute;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	color:white;
+	background-color:#333333;
+}
+
+h2 { 
+	margin-top:0px;
+}
+label {
+	display:block;
+	margin-top:10px;
+}
+
+button {
+	margin-top:10px;	
+}
+
+a {
+	color:yellow;
+}
+#savedImages {
+	background-color:black;
+	height:200px;
+	overflow:auto;
+	position:relative;
+}
+
+#savedImages img{
+	border:1px solid #666666;
+	width:55px;
+	height:50px;
+	float:left;
+}
+	
+a:hover {
+	color: #292929;
+	background-color: aqua;
+}
+
+span {
+	padding: 2px;
+	line-height:16px;
+	background-color: #3e3e3e;
+}
+
+.draggable:hover {
+	cursor:move;
+}
