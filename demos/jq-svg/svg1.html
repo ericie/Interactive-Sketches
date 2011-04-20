@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+     "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery SVG Basics</title>
+<style type="text/css">
+@import "css/jquery.svg.css";
+
+#svgbasics { width: 400px; height: 300px; border: 1px solid #484; }
+</style>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+	google.load("jquery", "1.5.2");
+	google.load("jqueryui", "1.8.10");
+</script>
+		
+<script type="text/javascript" src="js/jquery.svg.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	/*
+	$("#svgbasics").svg({ 
+	    loadURL: '', // External document to load 
+	    onLoad: null, // Callback once loaded 
+	    settings: {}}) // Additional settings for SVG element 
+	*/
+	//$("#svgbasics").svg(loadURL) 
+	//$("#svgbasics").svg(onLoad) 
+	var svg = $("#svgbasics").svg('get'); // Retrieve SVG wrapper 
+	//$("#svgbasics").svg('destroy') // Remove SVG functionality 
+	 
+
+});
+
+
+</script>
+</head>
+
+<body>
+<h1>jQuery SVG Basics</h1>
+<p>This page demonstrates the very basics of the <a href="http://keith-wood.name/svg.html">jQuery SVG plugin</a>.
+	It contains the minimum requirements for using the plugin and
+	can be used as the basis for your own experimentation.</p>
+<p>The page creates an SVG document in the area below and draws an initial display.
+	The buttons then add randomly sized and coloured shapes on demand.</p>
+<p>For more detail see the <a href="http://keith-wood.name/svgRef.html">documentation reference</a> page.</p>
+<div id="svgbasics"></div>
+<p><button id="rect">Add rectangle</button> <button id="line">Add line</button>
+	<button id="circle">Add circle</button> <button id="ellipse">Add ellipse</button>
+	<button id="clear">Clear</button></p>
+</body>
+</html>
