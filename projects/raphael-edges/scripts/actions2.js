@@ -203,6 +203,20 @@ function setUpPage2() {
         
         r.safari();
     };
+    
+    function mouseCheck(){
+    	//console.log("Mouse Check");
+    	for (i = 0, ii = values.length - 1; i < ii; i++) {
+        	var xy = translate(i, values[i]),
+        	    xy1 = translate(i + 1, i + 1),
+        	    f;
+        	X[i] = xy[0];
+        	Y[i] = xy[1];
+        	//console.log(X + ", " + Y);
+        }
+    }
+    
+    setInterval(mouseCheck, 1000);
 };
 
 /*

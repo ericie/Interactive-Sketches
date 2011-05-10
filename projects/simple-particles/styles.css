@@ -1,0 +1,20 @@
+body {
+	background-color:#666666;
+	padding:0px;
+	margin:0px;
+}
+
+#container {
+	background-color:#000000;
+	width:768px;
+	height:1024px;
+}
+
+span {
+	/*border:1px solid white;*/
+	background-color:white;
+	width:3px;
+	height:3px;
+	position:absolute;
+	-webkit-transform : translateZ(0px);
+}
