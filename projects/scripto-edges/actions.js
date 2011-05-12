@@ -10,30 +10,34 @@ var passPoint;
 var mX = 0;
 var mY = 0;
 
+var mid = canvas.width / 2;
+var topPoints = 1;
+var sidePoints = 6;
+	
 var speeds = [];
 var retainPath = new Path();
-retainPath.fillColor = 'pink';
+//retainPath.fillColor = 'pink';
 
 var path = new Path();
-path.fillColor = 'gray';
+var hLength = 10;
+path.fillColor = '#ffffff';
+
+
 
 initializePath();
 
 
-
-
 function addPoint(xx, yy){
-	console.log(Date.now());
 	var point = new Point( 40, 40 );
 	path.add(point);
 	//path.segments[i]._point._y = myY;
-	console.log(path.segments[i]);
 }
 
 function initializePath() {
+	
 	center = document.bounds.center;
 	width = document.bounds.width - pad*2;
-	height = document.bounds.height - pad*2;
+	height = document.bounds.height + 600;// - pad*2;
 	//path = new Path();
 	path.segments = [];
 	retainPath.segments = [];
@@ -44,36 +48,37 @@ function initializePath() {
 	var i;
 	
 	// Top Line
-	var topPoints = 2;
+	/*
 	for (i = 1; i < topPoints; i++) {		
 		var myX = Math.round( ((width / topPoints) * i) + pad );
 		var myY = Math.round(pad);
-		console.log(i);
 
 		var point = new Point( myX, myY );
 		path.add(point);
 		speeds.push([0,0]);
-	}
+	}*/
 	
 	// Side
-	var sidePoints = 6;
 	for (i = 0; i <= sidePoints; i++) {
 		myX = Math.round( width + pad );
 		myY = Math.round( height / sidePoints * i + pad );
 		point = new Point( myX, myY);
 		path.add(point);
+		path.segments[i].handleIn.set(0, -hLength);
+		path.segments[i].handleOut.set(0, hLength);
 		speeds.push([0,0]);
 	}
 	
 	// Bottom Line
 	//var botPoints = 3;
+	/*
 	for (i = 1; i < topPoints; i++) {
 		myX = Math.round( (width  + pad) - (width / topPoints * i) );
 		myY = Math.round( height + pad );
 		point = new Point( myX, myY);
 		path.add(point);
 		speeds.push([0,0]);
-	}
+	}*/
 	
 	// Left Side
 	for (i = 0; i <= sidePoints; i++) {
@@ -86,58 +91,76 @@ function initializePath() {
 	
 	//path.add(document.bounds.bottomRight);
 	retainPath.segments = path.segments;
-	path.selected = true;
+	//path.selected = true;
 }
 
 function onFrame() {
-	/*
-	count++;
-	for (var i = 1; i < points; i++) {
-		var sinSeed = count + (i + i % 10) * 100 ;
-		var sinHeight = Math.sin(sinSeed / 200) * pathHeight;
-		var yPos = Math.sin(sinSeed / 100) * sinHeight + height;
-		path.segments[i].point.y = yPos;
-	}
-	*/
-	//console.log('onfFrame');
-
-	//console.log(path.segments.length);
+	
 	var maxI = path.segments.length;
 	for (var i = 0; i < maxI; i++) {
+		if (i != 0 && i != sidePoints && i != sidePoints + 1 && i != sidePoints * 2 + 1  ){
 		var tempX = path.segments[i]._point._x;
 		var tempY = path.segments[i]._point._y;
 		//var mX = event.x;
 		//var dist = checkDistance(tempX, event.point.x, tempY, event.point.y);
 		//if (dist < proxLimit){
-			console.log(i);
+			//console.log(i);
 			var targX = mX;
 			var targY = mY;
-			var movedX = retainPath.segments[i]._point._x;
-			var movedY = retainPath.segments[i]._point._y;
+			var originX = retainPath.segments[i]._point._x;
+			var originY = retainPath.segments[i]._point._y;
 			var anim = false;
+			var limitDist = 100;
 			
-			if ( checkDistance(movedX, targX, movedY, targY) < 100 ){
+			
+			if ( checkDistance(originX, targX, originY, targY) < limitDist ){
 				anim = true
 			}
 			
 			// if we're cleared to animate go towards target otherwise return to origin.
 			var targSpeed;
-			
+			var speedX;
+			var speedY;
+			var modifier = (originX > mid) ? 1 : -1;
+										
 			if ( anim == true ){
-				path.segments[i]._point._x += ease(path.segments[i]._point._x, mX, i);
-				//path.segments[i]._point._y = ease(path.segments[i]._point._y, mY, i);
+				//if (originX > mid){ 
+				//	modifier
+
+				targX = originX - (mX - ((originX - limitDist) * modifier)) + pad;
+				speedX = ease(path.segments[i]._point._x, targX, speeds[i][0]);
+				speedY = ease(path.segments[i]._point._y, mY, speeds[i][1]) / 2;
+				speeds[i] = [speedX,speedY];
+				path.segments[i]._point._x += speedX;
+				path.segments[i]._point._y += speedY;
 			} else {
-				path.segments[i]._point._x += ease(path.segments[i]._point._x, movedX, i);
-				//path.segments[i]._point._y += ease(path.segments[i]._point._y, movedY, i);
+				speedX = ease(path.segments[i]._point._x, originX, speeds[i][0]);
+				speedY = ease(path.segments[i]._point._y, originY, speeds[i][1]);
+				speeds[i] = [speedX,speedY];
+				path.segments[i]._point._x += speedX;
+				path.segments[i]._point._y += speedY;
 			}
+			
+			//console.log(modifier);
+			var myHandleLength = (originX - path.segments[i]._point._x) * modifier;
+			var minHandle = 25;
+			var maxHandle = 220;
+			if (myHandleLength < minHandle) myHandleLength = minHandle;
+			if (myHandleLength > maxHandle) myHandleLength = maxHandle;
+
+			path.segments[i].handleIn.set(0, -myHandleLength * modifier);
+			path.segments[i].handleOut.set(0, myHandleLength * modifier);
+				
 		//}
 		//console.log(dist);
+		}
 	}
 	
-	
+	/*
 	if (smooth)
 		path.smooth();
-
+	*/
+	
 }
 
 
@@ -150,9 +173,9 @@ function onMouseMove(event) {
 	
 }
 
-function ease(_cur, _targ, _i){
+function ease(_cur, _targ, _curSpeed){
 	var targSpeed = (_targ - _cur) / 5;
-	var curSpeed = speeds[_i];
+	var curSpeed = _curSpeed;//speeds[_i];
 	var newSpeed = 0;
 	if (Math.abs(targSpeed) > Math.abs(curSpeed)) {
 		// add speed
@@ -164,7 +187,7 @@ function ease(_cur, _targ, _i){
 	} else {
 		newSpeed = targSpeed;
 	}
-	speeds[_i] = newSpeed;
+	//speeds[_i] = newSpeed;
 	return newSpeed;
 }
 
@@ -194,3 +217,11 @@ DomEvent.add(window, {
 		document.redraw();
 	}
 });
+
+
+/////////////
+// External Content Show
+
+function showContent(_i){
+	console.log(_i);
+}

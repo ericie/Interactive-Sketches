@@ -5,207 +5,10 @@
 	<key>EmbeddedEditorHidden:eric_adapted</key>
 	<false/>
 	<key>ExpandedEditorWidth:eric_adapted:displays([(0, 0), (2560, 1440)])</key>
-	<integer>848</integer>
+	<integer>918</integer>
 	<key>ExpandedItems:eric_adapted</key>
 	<array>
 		<string>53783581-40AB-4829-9942-248818491D3D</string>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAG0AAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAE3SHQFZGVtb3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATdM
-			c8nUpXcAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAFElu
-			dGVyYWN0aXZlIFNrZXRjaGVzABAACAAAyNmivQAAABEACAAAydTd
-			twAAAAEAFAE3SHQAntFIAAhPCQAITvwAAJMlAAIATk1hY2ludG9z
-			aCBIRDpVc2VyczplcmljX2FkYXB0ZWQ6RG9jdW1lbnRzOndvcmtz
-			cGFjZTpJbnRlcmFjdGl2ZSBTa2V0Y2hlczpkZW1vcwAOAAwABQBk
-			AGUAbQBvAHMADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQA
-			EgBBVXNlcnMvZXJpY19hZGFwdGVkL0RvY3VtZW50cy93b3Jrc3Bh
-			Y2UvSW50ZXJhY3RpdmUgU2tldGNoZXMvZGVtb3MAABMAAS8AABUA
-			AgAT//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIeAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAE3THMfc2NyaXB0b2dyYXBoZXItcGFwZXIuanMtMGM3
-			NzcyOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			l8nsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABWRl
-			bW9zAAAQAAgAAMjZor0AAAARAAgAAMnsh44AAAABABgBN0xzATdI
-			dACe0UgACE8JAAhO/AAAkyUAAgBuTWFjaW50b3NoIEhEOlVzZXJz
-			OmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29ya3NwYWNlOkludGVy
-			YWN0aXZlIFNrZXRjaGVzOmRlbW9zOnNjcmlwdG9ncmFwaGVyLXBh
-			cGVyLmpzLTBjNzc3MjgADgBAAB8AcwBjAHIAaQBwAHQAbwBnAHIA
-			YQBwAGgAZQByAC0AcABhAHAAZQByAC4AagBzAC0AMABjADcANwA3
-			ADIAOAAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAGFV
-			c2Vycy9lcmljX2FkYXB0ZWQvRG9jdW1lbnRzL3dvcmtzcGFjZS9J
-			bnRlcmFjdGl2ZSBTa2V0Y2hlcy9kZW1vcy9zY3JpcHRvZ3JhcGhl
-			ci1wYXBlci5qcy0wYzc3NzI4AAATAAEvAAAVAAIAE///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIgAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY5cIZXhhbXBsZXMAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			oMnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAH3Nj
-			cmlwdG9ncmFwaGVyLXBhcGVyLmpzLTBjNzc3MjgAABAACAAAyNmi
-			vQAAABEACAAAyeyHjgAAAAEAHAGZY5cBN0xzATdIdACe0UgACE8J
-			AAhO/AAAkyUAAgB3TWFjaW50b3NoIEhEOlVzZXJzOmVyaWNfYWRh
-			cHRlZDpEb2N1bWVudHM6d29ya3NwYWNlOkludGVyYWN0aXZlIFNr
-			ZXRjaGVzOmRlbW9zOnNjcmlwdG9ncmFwaGVyLXBhcGVyLmpzLTBj
-			Nzc3Mjg6ZXhhbXBsZXMAAA4AEgAIAGUAeABhAG0AcABsAGUAcwAP
-			ABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAGpVc2Vycy9l
-			cmljX2FkYXB0ZWQvRG9jdW1lbnRzL3dvcmtzcGFjZS9JbnRlcmFj
-			dGl2ZSBTa2V0Y2hlcy9kZW1vcy9zY3JpcHRvZ3JhcGhlci1wYXBl
-			ci5qcy0wYzc3NzI4L2V4YW1wbGVzABMAAS8AABUAAgAT//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIeAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY6AIQW5pbWF0ZWQAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			ocnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACGV4
-			YW1wbGVzABAACAAAyNmivQAAABEACAAAyeyHjgAAAAEAIAGZY6AB
-			mWOXATdMcwE3SHQAntFIAAhPCQAITvwAAJMlAAIAgE1hY2ludG9z
-			aCBIRDpVc2VyczplcmljX2FkYXB0ZWQ6RG9jdW1lbnRzOndvcmtz
-			cGFjZTpJbnRlcmFjdGl2ZSBTa2V0Y2hlczpkZW1vczpzY3JpcHRv
-			Z3JhcGhlci1wYXBlci5qcy0wYzc3NzI4OmV4YW1wbGVzOkFuaW1h
-			dGVkAA4AEgAIAEEAbgBpAG0AYQB0AGUAZAAPABoADABNAGEAYwBp
-			AG4AdABvAHMAaAAgAEgARAASAHNVc2Vycy9lcmljX2FkYXB0ZWQv
-			RG9jdW1lbnRzL3dvcmtzcGFjZS9JbnRlcmFjdGl2ZSBTa2V0Y2hl
-			cy9kZW1vcy9zY3JpcHRvZ3JhcGhlci1wYXBlci5qcy0wYzc3NzI4
-			L2V4YW1wbGVzL0FuaW1hdGVkAAATAAEvAAAVAAIAE///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/Animated/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAISAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY6AFVG9vbHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			tMnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACGV4
-			YW1wbGVzABAACAAAyNmivQAAABEACAAAyeyHjgAAAAEAIAGZY6AB
-			mWOXATdMcwE3SHQAntFIAAhPCQAITvwAAJMlAAIAfU1hY2ludG9z
-			aCBIRDpVc2VyczplcmljX2FkYXB0ZWQ6RG9jdW1lbnRzOndvcmtz
-			cGFjZTpJbnRlcmFjdGl2ZSBTa2V0Y2hlczpkZW1vczpzY3JpcHRv
-			Z3JhcGhlci1wYXBlci5qcy0wYzc3NzI4OmV4YW1wbGVzOlRvb2xz
-			AAAOAAwABQBUAG8AbwBsAHMADwAaAAwATQBhAGMAaQBuAHQAbwBz
-			AGgAIABIAEQAEgBwVXNlcnMvZXJpY19hZGFwdGVkL0RvY3VtZW50
-			cy93b3Jrc3BhY2UvSW50ZXJhY3RpdmUgU2tldGNoZXMvZGVtb3Mv
-			c2NyaXB0b2dyYXBoZXItcGFwZXIuanMtMGM3NzcyOC9leGFtcGxl
-			cy9Ub29scwATAAEvAAAVAAIAE///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/Tools/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIMAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY5cDc3JjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			yMnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAH3Nj
-			cmlwdG9ncmFwaGVyLXBhcGVyLmpzLTBjNzc3MjgAABAACAAAyNmi
-			vQAAABEACAAAyeyHjgAAAAEAHAGZY5cBN0xzATdIdACe0UgACE8J
-			AAhO/AAAkyUAAgByTWFjaW50b3NoIEhEOlVzZXJzOmVyaWNfYWRh
-			cHRlZDpEb2N1bWVudHM6d29ya3NwYWNlOkludGVyYWN0aXZlIFNr
-			ZXRjaGVzOmRlbW9zOnNjcmlwdG9ncmFwaGVyLXBhcGVyLmpzLTBj
-			Nzc3Mjg6c3JjAA4ACAADAHMAcgBjAA8AGgAMAE0AYQBjAGkAbgB0
-			AG8AcwBoACAASABEABIAZVVzZXJzL2VyaWNfYWRhcHRlZC9Eb2N1
-			bWVudHMvd29ya3NwYWNlL0ludGVyYWN0aXZlIFNrZXRjaGVzL2Rl
-			bW9zL3NjcmlwdG9ncmFwaGVyLXBhcGVyLmpzLTBjNzc3Mjgvc3Jj
-			AAATAAEvAAAVAAIAE///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/src/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIAAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY8gEdXRpbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			+snsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA3Ny
-			YwAAEAAIAADI2aK9AAAAEQAIAADJ7IeOAAAAAQAgAZljyAGZY5cB
-			N0xzATdIdACe0UgACE8JAAhO/AAAkyUAAgB3TWFjaW50b3NoIEhE
-			OlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29ya3NwYWNl
-			OkludGVyYWN0aXZlIFNrZXRjaGVzOmRlbW9zOnNjcmlwdG9ncmFw
-			aGVyLXBhcGVyLmpzLTBjNzc3Mjg6c3JjOnV0aWwAAA4ACgAEAHUA
-			dABpAGwADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBq
-			VXNlcnMvZXJpY19hZGFwdGVkL0RvY3VtZW50cy93b3Jrc3BhY2Uv
-			SW50ZXJhY3RpdmUgU2tldGNoZXMvZGVtb3Mvc2NyaXB0b2dyYXBo
-			ZXItcGFwZXIuanMtMGM3NzcyOC9zcmMvdXRpbAATAAEvAAAVAAIA
-			E///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/src/util/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAHYAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAE3SHQOaW5kZXguaW5jbHVkZXMAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATdK
-			qcmcNEMAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAFElu
-			dGVyYWN0aXZlIFNrZXRjaGVzABAACAAAyNmivQAAABEACAAAyZx6
-			kwAAAAEAFAE3SHQAntFIAAhPCQAITvwAAJMlAAIAV01hY2ludG9z
-			aCBIRDpVc2VyczplcmljX2FkYXB0ZWQ6RG9jdW1lbnRzOndvcmtz
-			cGFjZTpJbnRlcmFjdGl2ZSBTa2V0Y2hlczppbmRleC5pbmNsdWRl
-			cwAADgAeAA4AaQBuAGQAZQB4AC4AaQBuAGMAbAB1AGQAZQBzAA8A
-			GgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIASlVzZXJzL2Vy
-			aWNfYWRhcHRlZC9Eb2N1bWVudHMvd29ya3NwYWNlL0ludGVyYWN0
-			aXZlIFNrZXRjaGVzL2luZGV4LmluY2x1ZGVzABMAAS8AABUAAgAT
-			//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/index.includes/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>AliasData</key>
 			<data>
@@ -223,6 +26,29 @@
 			</data>
 			<key>FileURL</key>
 			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/lib/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGwAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGZiIMFbWljcm8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaX4
+			dsnwarkAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2xp
+			YgAAEAAIAADI2aK9AAAAEQAIAADJ8KL5AAAAAQAYAZmIgwE3SHQA
+			ntFIAAhPCQAITvwAAJMlAAIAUk1hY2ludG9zaCBIRDpVc2Vyczpl
+			cmljX2FkYXB0ZWQ6RG9jdW1lbnRzOndvcmtzcGFjZTpJbnRlcmFj
+			dGl2ZSBTa2V0Y2hlczpsaWI6bWljcm8ADgAMAAUAbQBpAGMAcgBv
+			AA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARVVzZXJz
+			L2VyaWNfYWRhcHRlZC9Eb2N1bWVudHMvd29ya3NwYWNlL0ludGVy
+			YWN0aXZlIFNrZXRjaGVzL2xpYi9taWNybwAAEwABLwAAFQACABP/
+			/wAA
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/lib/micro/</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -251,6 +77,54 @@
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAHeAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAE3SggNc2NyaXB0by1lZGdlcwAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlo
+			d8ntf5EAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACHBy
+			b2plY3RzABAACAAAyNmivQAAABEACAAAye230QAAAAEAGAE3SggB
+			N0h0AJ7RSAAITwkACE78AACTJQACAF9NYWNpbnRvc2ggSEQ6VXNl
+			cnM6ZXJpY19hZGFwdGVkOkRvY3VtZW50czp3b3Jrc3BhY2U6SW50
+			ZXJhY3RpdmUgU2tldGNoZXM6cHJvamVjdHM6c2NyaXB0by1lZGdl
+			cwAADgAcAA0AcwBjAHIAaQBwAHQAbwAtAGUAZABnAGUAcwAPABoA
+			DABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFJVc2Vycy9lcmlj
+			X2FkYXB0ZWQvRG9jdW1lbnRzL3dvcmtzcGFjZS9JbnRlcmFjdGl2
+			ZSBTa2V0Y2hlcy9wcm9qZWN0cy9zY3JpcHRvLWVkZ2VzABMAAS8A
+			ABUAAgAT//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/projects/scripto-edges/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAHcAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGZaHcDY3NpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaX4
+			5snwbJYAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNj
+			cmlwdG8tZWRnZXMAABAACAAAyNmivQAAABEACAAAyfCk1gAAAAEA
+			HAGZaHcBN0oIATdIdACe0UgACE8JAAhO/AAAkyUAAgBjTWFjaW50
+			b3NoIEhEOlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29y
+			a3NwYWNlOkludGVyYWN0aXZlIFNrZXRjaGVzOnByb2plY3RzOnNj
+			cmlwdG8tZWRnZXM6Y3NpAAAOAAgAAwBjAHMAaQAPABoADABNAGEA
+			YwBpAG4AdABvAHMAaAAgAEgARAASAFZVc2Vycy9lcmljX2FkYXB0
+			ZWQvRG9jdW1lbnRzL3dvcmtzcGFjZS9JbnRlcmFjdGl2ZSBTa2V0
+			Y2hlcy9wcm9qZWN0cy9zY3JpcHRvLWVkZ2VzL2NzaQATAAEvAAAV
+			AAIAE///AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/projects/scripto-edges/csi/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>FileFilterID:eric_adapted</key>
 	<string>msng</string>
@@ -259,10 +133,63 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
+			AAAAAAIGAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGl+OYNY2FsZW5kYXIuaHRtbAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaYP
+			+cntgJNURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Nz
+			aQAAEAAIAADI2aK9AAAAEQAIAADJ7bjTAAAAAQAgAaX45gGZaHcB
+			N0oIATdIdACe0UgACE8JAAhO/AAAkyUAAgBxTWFjaW50b3NoIEhE
+			OlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29ya3NwYWNl
+			OkludGVyYWN0aXZlIFNrZXRjaGVzOnByb2plY3RzOnNjcmlwdG8t
+			ZWRnZXM6Y3NpOmNhbGVuZGFyLmh0bWwAAA4AHAANAGMAYQBsAGUA
+			bgBkAGEAcgAuAGgAdABtAGwADwAaAAwATQBhAGMAaQBuAHQAbwBz
+			AGgAIABIAEQAEgBkVXNlcnMvZXJpY19hZGFwdGVkL0RvY3VtZW50
+			cy93b3Jrc3BhY2UvSW50ZXJhY3RpdmUgU2tldGNoZXMvcHJvamVj
+			dHMvc2NyaXB0by1lZGdlcy9jc2kvY2FsZW5kYXIuaHRtbAATAAEv
+			AAAVAAIAE///AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/projects/scripto-edges/csi/calendar.html</string>
+			<key>RelativePath</key>
+			<string>./projects/scripto-edges/csi/calendar.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAH2AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGl+OYJc3R5bGUuY3NzAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaYK
+			icnti+xURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Nz
+			aQAAEAAIAADI2aK9AAAAEQAIAADJ7cQsAAAAAQAgAaX45gGZaHcB
+			N0oIATdIdACe0UgACE8JAAhO/AAAkyUAAgBtTWFjaW50b3NoIEhE
+			OlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29ya3NwYWNl
+			OkludGVyYWN0aXZlIFNrZXRjaGVzOnByb2plY3RzOnNjcmlwdG8t
+			ZWRnZXM6Y3NpOnN0eWxlLmNzcwAADgAUAAkAcwB0AHkAbABlAC4A
+			YwBzAHMADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBg
+			VXNlcnMvZXJpY19hZGFwdGVkL0RvY3VtZW50cy93b3Jrc3BhY2Uv
+			SW50ZXJhY3RpdmUgU2tldGNoZXMvcHJvamVjdHMvc2NyaXB0by1l
+			ZGdlcy9jc2kvc3R5bGUuY3NzABMAAS8AABUAAgAT//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/projects/scripto-edges/csi/style.css</string>
+			<key>RelativePath</key>
+			<string>./projects/scripto-edges/csi/style.css</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
 			AAAAAAH4AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
 			2Wp9SCsAAAGZaHcKYWN0aW9ucy5qcwAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaQq
-			J8ntjtRURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNj
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaX4
+			ocntjtRURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNj
 			cmlwdG8tZWRnZXMAABAACAAAyNmivQAAABEACAAAye3HFAAAAAEA
 			HAGZaHcBN0oIATdIdACe0UgACE8JAAhO/AAAkyUAAgBqTWFjaW50
 			b3NoIEhEOlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29y
@@ -285,26 +212,26 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAI8AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
-			2Wp9SCsAAAGZY6EKRmxvY2suaHRtbAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAIyAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGZY8kMUmVjdGFuZ2xlLmpzAAAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
-			pMnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACEFu
-			aW1hdGVkABAACAAAyNmivQAAABEACAAAyeyHjgAAAAEAJAGZY6EB
-			mWOgAZljlwE3THMBN0h0AJ7RSAAITwkACE78AACTJQACAItNYWNp
-			bnRvc2ggSEQ6VXNlcnM6ZXJpY19hZGFwdGVkOkRvY3VtZW50czp3
-			b3Jrc3BhY2U6SW50ZXJhY3RpdmUgU2tldGNoZXM6ZGVtb3M6c2Ny
-			aXB0b2dyYXBoZXItcGFwZXIuanMtMGM3NzcyODpleGFtcGxlczpB
-			bmltYXRlZDpGbG9jay5odG1sAAAOABYACgBGAGwAbwBjAGsALgBo
-			AHQAbQBsAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIA
-			flVzZXJzL2VyaWNfYWRhcHRlZC9Eb2N1bWVudHMvd29ya3NwYWNl
-			L0ludGVyYWN0aXZlIFNrZXRjaGVzL2RlbW9zL3NjcmlwdG9ncmFw
-			aGVyLXBhcGVyLmpzLTBjNzc3MjgvZXhhbXBsZXMvQW5pbWF0ZWQv
-			RmxvY2suaHRtbAATAAEvAAAVAAIAE///AAA=
+			zcnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABWJh
+			c2ljAAAQAAgAAMjZor0AAAARAAgAAMnsh44AAAABACQBmWPJAZlj
+			yAGZY5cBN0xzATdIdACe0UgACE8JAAhO/AAAkyUAAgCFTWFjaW50
+			b3NoIEhEOlVzZXJzOmVyaWNfYWRhcHRlZDpEb2N1bWVudHM6d29y
+			a3NwYWNlOkludGVyYWN0aXZlIFNrZXRjaGVzOmRlbW9zOnNjcmlw
+			dG9ncmFwaGVyLXBhcGVyLmpzLTBjNzc3Mjg6c3JjOmJhc2ljOlJl
+			Y3RhbmdsZS5qcwAADgAaAAwAUgBlAGMAdABhAG4AZwBsAGUALgBq
+			AHMADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgB4VXNl
+			cnMvZXJpY19hZGFwdGVkL0RvY3VtZW50cy93b3Jrc3BhY2UvSW50
+			ZXJhY3RpdmUgU2tldGNoZXMvZGVtb3Mvc2NyaXB0b2dyYXBoZXIt
+			cGFwZXIuanMtMGM3NzcyOC9zcmMvYmFzaWMvUmVjdGFuZ2xlLmpz
+			ABMAAS8AABUAAgAT//8AAA==
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/Animated/Flock.html</string>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/src/basic/Rectangle.js</string>
 			<key>RelativePath</key>
-			<string>./demos/scriptographer-paper.js-0c77728/examples/Animated/Flock.html</string>
+			<string>./demos/scriptographer-paper.js-0c77728/src/basic/Rectangle.js</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -333,6 +260,34 @@
 			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/Tools/BezierTool.html</string>
 			<key>RelativePath</key>
 			<string>./demos/scriptographer-paper.js-0c77728/examples/Tools/BezierTool.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAI8AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADI
+			2Wp9SCsAAAGZY6EKRmxvY2suaHRtbAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZlj
+			pMnsT04AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACEFu
+			aW1hdGVkABAACAAAyNmivQAAABEACAAAyeyHjgAAAAEAJAGZY6EB
+			mWOgAZljlwE3THMBN0h0AJ7RSAAITwkACE78AACTJQACAItNYWNp
+			bnRvc2ggSEQ6VXNlcnM6ZXJpY19hZGFwdGVkOkRvY3VtZW50czp3
+			b3Jrc3BhY2U6SW50ZXJhY3RpdmUgU2tldGNoZXM6ZGVtb3M6c2Ny
+			aXB0b2dyYXBoZXItcGFwZXIuanMtMGM3NzcyODpleGFtcGxlczpB
+			bmltYXRlZDpGbG9jay5odG1sAAAOABYACgBGAGwAbwBjAGsALgBo
+			AHQAbQBsAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIA
+			flVzZXJzL2VyaWNfYWRhcHRlZC9Eb2N1bWVudHMvd29ya3NwYWNl
+			L0ludGVyYWN0aXZlIFNrZXRjaGVzL2RlbW9zL3NjcmlwdG9ncmFw
+			aGVyLXBhcGVyLmpzLTBjNzc3MjgvZXhhbXBsZXMvQW5pbWF0ZWQv
+			RmxvY2suaHRtbAATAAEvAAAVAAIAE///AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/eric_adapted/Documents/workspace/Interactive%20Sketches/demos/scriptographer-paper.js-0c77728/examples/Animated/Flock.html</string>
+			<key>RelativePath</key>
+			<string>./demos/scriptographer-paper.js-0c77728/examples/Animated/Flock.html</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -405,8 +360,8 @@
 	<key>ToolbarVisible:eric_adapted</key>
 	<true/>
 	<key>ViewSplitterPosition:eric_adapted</key>
-	<real>0.31336033344268799</real>
+	<real>0.25668016076087952</real>
 	<key>WindowFrame:eric_adapted:displays([(0, 0), (2560, 1440)])</key>
-	<string>rect(96,173,1345,1408)</string>
+	<string>rect(79,827,1328,2062)</string>
 </dict>
 </plist>
