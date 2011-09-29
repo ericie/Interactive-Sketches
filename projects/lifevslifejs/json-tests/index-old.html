@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>  
+		<meta charset="utf-8">
+		<title>JSON Test 1</title>
+		<script type="text/javascript" src="json_sans_eval.js"></script>
+		<script type="text/javascript">
+			var req;
+			var rurl = "betterboard.json";
+
+			function loadXMLDoc(url) {
+				req = false;
+	
+			    // branch for native XMLHttpRequest object
+			    if(window.XMLHttpRequest && !(window.ActiveXObject)) {
+			    	try {
+						req = new XMLHttpRequest();
+			        } catch(e) {
+						req = false;
+			        }
+			    } 
+
+				if(req) {
+					req.onreadystatechange = processReqChange;
+					req.open("GET", url, true);
+					req.send("");
+				}
+				
+			}
+			
+			function loadJSON(url) {
+			  var headID = document.getElementsByTagName("head")[0];         
+			  var newScript = document.createElement('script');
+			      newScript.type = 'text/javascript';
+			      newScript.src = url;
+			  headID.appendChild(newScript);
+			}
+			
+			loadXMLDoc(rurl);
+			
+			
+			//var myJson = '{ "x": "Hello, World!", "y": [1, 2, 3] }';
+			var myJson = req; //'betterboard.json';
+		//	var myJsonObj = jsonParse(myJson);
+			
+			alert(myJsonObj);  // 
+			alert('alerts Hello, World!');
+			/*
+			for (var k in myJson) {
+			  // alerts x=Hello, World!  and  y=1,2,3
+			  alert(k + '=' + myJson[k]);
+			}
+			*/
+		</script>
+		
+		<meta name="description" content="" />  
+		<meta name="keywords" content="" />
+		<meta name="robots" content="" />
+		
+	</head>
+	<body>
+	</body>
+</html>

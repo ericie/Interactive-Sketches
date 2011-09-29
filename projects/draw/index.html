@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang=en>
+
+<!--
+
+
+			This demo was largely done in Seb's Creative Javascript Class
+			http://sebleedelisle.com/training/
+			
+			/
+		   
+	   /\_/\  /\
+	  / o o \ \ \
+	 /   Y   \/ /
+	/         \/
+	\ | | | | /
+	 `|_|-|_|'									
+	 
+-->
+
+
+<head>
+<meta charset=utf-8>
+<title>Particles Chase Lines</title>
+
+<style type="text/css"> 
+	body {
+		font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+		background-color: #000000;
+		margin: 0px;
+		padding:none;
+		text-align:center;
+		overflow:none;
+		
+	}
+	canvas {
+		background-color:#000000;
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	#notice {
+		background: white;
+		background: rgba(255,255,255,.9);
+		position: absolute;
+		top:50%;
+		left:50%;
+		padding:20px;
+		width: 360px;
+		margin-left:-180px;
+		margin-top:-80px;
+		z-index:10;
+		
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	p { font-size: 10px; width:70%; margin-left:auto; margin-right: auto; }
+	h1 { font-size: 18px; text-align: center;}
+</style>
+
+<script src="libs/Vector2.js"></script>
+<script type="text/javascript">
+	 
+// TODO: Add options pane for line-width, speeds etc
+
+
+/******************************************************************** 
+ENTERFRAME
+*********************************************************************/
+var canvas = document.createElement( 'canvas' ),
+	context = canvas.getContext( '2d' ),
+	mouseDown,
+	mouseX, mouseY,
+	oldMouseX = 0, oldMouseY = 0,
+	particles = [],
+	targets = [];
+
+var bg;
+
+function loop() {
+	c.clearRect(0,0,canvas.width,canvas.height);
+	
+
+	
+	c.putImageData(bg, 0, 0);
+
+	c.fillStyle = 'rgba(0,0,0,.02)';
+	//c.fillRect(10,20,500,500);
+	c.fillRect(0, 0, canvas.width, canvas.height);
+	// and fill it
+	//c.fill();
+	
+	
+	if (mouseDown){
+		//c.strokeStyle = "rgba(23,116,255,1)";
+		c.strokeStyle = "#00ffe6";//"#ff2ec6";//"rgba(23,116,255,1)";
+		c.lineWidth = 10; //50;
+		c.lineJoin = "round";
+		c.lineCap = "round";
+		c.miterLimit = 1;
+		c.beginPath();
+		c.moveTo(oldMouseX, oldMouseY);
+		c.lineTo(mouseX,mouseY);
+		oldMouseX = mouseX;
+		oldMouseY = mouseY;
+		c.stroke();
+	}
+	
+	bg = c.getImageData(0, 0, canvas.width, canvas.height);
+	
+	targets = [];
+	//console.log(bg.data.length);
+	var maxPx = bg.data.length;
+	
+	for (var px = 1; px < maxPx; px += 4){
+		//console.log(bg.data[px]);
+		//if (px )
+		
+		if (bg.data[px] != 0){
+		//if (bg.data[px] != 0){
+			var realPX = Math.floor(px / 4);
+			var tX = realPX % canvas.width;
+			var tY = Math.floor(realPX / canvas.width);
+			var t = new Vector2(tX,tY);
+
+			
+			//targets.push(t);
+			if (targets.length < 5){
+			//	bg.data[px];
+			}
+				//targets = [];
+				/*
+				console.log(px);
+				*/
+				//console.log("maxPx: "+maxPx);
+				//console.log(maxPx/4);
+				//console.log(canvas.width + " x " + canvas.height);
+				//console.log(px + " = " + t.x +', '+t.y);
+				targets.push(t);
+				//console.log(targets);
+			//}
+			
+			var tt = new Vector2(800,800);
+			//targets = [tt,tt,tt,tt,tt,tt,tt,tt,tt];
+		}
+
+	}
+	//console.log(targets);
+	
+	
+	for(var i = 0; i<particles.length; i++){
+		var p = particles[i];
+		p.update();
+		p.draw(c);
+	}
+	
+}
+
+
+
+/******************************************************************** 
+INITIALIZE
+*********************************************************************/
+function init() {
+	console.log("init");
+	// CANVAS SET UP
+	initMouseListeners(); 
+	
+	canvas.width = window.innerWidth; 
+	canvas.height = window.innerHeight; 
+	document.body.appendChild(canvas);
+	
+	c = context;
+	bg = c.createImageData(canvas.width, canvas.height);
+	
+	for (var i=0; i < 100; i++){
+		var particle = new Particle();
+		particle.pos.reset(Math.random()*canvas.width, Math.random()*canvas.height);
+		particle.vel.reset(Math.random() * 6 - 3, Math.random() * 6 - 3);
+		particle.wanderVel.reset(Math.random() * 6 - 3, Math.random() * 6 - 3);
+		particle._index = i;
+		particles.push(particle);
+	}
+	
+	setInterval(loop, 1000 / 30);
+}
+
+
+/******************************************************************** 
+MOUSE LISTENERS
+*********************************************************************/
+function initMouseListeners() {
+	document.addEventListener('mousemove', onMouseMove, false);
+	document.addEventListener( 'mousedown', onMouseDown, false );
+	document.addEventListener( 'mouseup', onMouseUp, false );
+}
+
+function onMouseMove( event ) {
+	event.preventDefault();
+	//oldMouseX = mouseX;
+	//oldMouseY = mouseY;
+	mouseX = event.clientX;
+	mouseY = event.clientY;
+}
+
+function onMouseDown(event) {
+	oldMouseX = mouseX;
+	oldMouseY = mouseY;
+	mouseDown = true; 
+}
+function onMouseUp(event) {
+	mouseDown = false; 
+}
+			
+
+/******************************************************************** 
+PARTICLE OBJECT
+*********************************************************************/
+function accellTo(_t, _v, _a){
+	if (_t > 0){
+		_v += _a;
+	} else {
+		_v -= _a;
+	}
+	
+	return _v;
+}
+
+function Particle(){
+	
+	var pos = this.pos = new Vector2(0,0);
+	var wanderVel = this.wanderVel = new Vector2(0,0);
+	var vel = this.vel = new Vector2(0,0);
+	var targVel = this.targVel = new Vector2(0,0);
+	var state = this.state = "wander";
+	var target = this.target = new Vector2(600,600);
+	var _index = this._index = 0;
+	var stillTime = this.stillTime = 0;
+	var waitFor = this.waitFor = Math.round(Math.random()*50)+10;
+	
+	// TODO: Add Ease In
+	var actualVel = this.actualVel = new Vector2(0,0);
+	
+	
+	this.update = function(){
+	
+		if (this.state == "aquire"){
+			if (targets.length > 1){
+				var randTarg = Math.round(Math.random() * (targets.length-1));
+				target.copyFrom(targets[randTarg]);
+				this.state = "seek";
+			} else {
+				this.state = "wander";
+			}
+			this.stillTime = 0;
+		}
+		
+		if (this.state == "wander"){
+			vel = wanderVel.multiplyNew(.5);
+			
+			this.stillTime++;
+			if (this.stillTime > this.waitFor){
+				this.state = "aquire";
+			}
+		}
+		
+		if (this.state == "seek"){
+			var angle = pos.angle(target);
+			var dist = target.minusNew(pos);
+			var mag = Math.sqrt( (dist.x*dist.x)+(dist.y*dist.y) );
+			var decel = 10;
+			
+			//var speed = mag / decel;
+
+			//vel.x = Math.cos(angle) * (dist.x * .2);
+			//vel.y = Math.sin(angle) * (dist.y * .2);
+			
+			targVel.x = Math.cos(angle) * (dist.x * .2);
+			targVel.y = Math.sin(angle) * (dist.y * .2);
+
+
+			//////////////////////////////////
+			// Clunky accelleration action
+			//
+			
+			var accell = Math.random() + .5;
+			if ( Math.abs(vel.x) < Math.abs(targVel.x) ){
+				vel.x = accellTo(targVel.x, vel.x, accell);
+			} else {
+				vel.x = targVel.x;
+			}
+			if ( Math.abs(vel.y) < Math.abs(targVel.y) ){
+				vel.y = accellTo(targVel.y, vel.y, accell);
+			} else {
+				vel.y = targVel.y;
+			}
+
+
+				
+				
+			
+			if (pos.isCloseTo(target, 1)){
+				pos.copyFrom(target);
+				vel.reset(0,0);
+				this.state = "still";
+			}
+		}
+		
+		if (this.state == "still"){
+			//vel.reset(0,0);
+			//console.log("be still");
+			this.stillTime++;
+			if (this.stillTime > this.waitFor){
+				this.state = "aquire";
+			}
+		}
+
+			
+		pos.plusEq(vel);
+		
+		// Mod World		
+		if (this.pos.x > canvas.width) this.pos.x = 0;
+		if (this.pos.x < 0) this.pos.x = canvas.width;
+		if (this.pos.y > canvas.height) this.pos.y = 0;
+		if (this.pos.y < 0) this.pos.y = canvas.height;
+	}
+	
+	this.draw = function(c){
+		c.strokeStyle = "rgba(255,255,255,1)";
+		c.beginPath();
+		c.lineWidth = 2;
+		c.arc(pos.x,pos.y, 4,0, Math.PI*2, true);
+		c.stroke();
+	}
+	
+}
+
+</script>
+
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.6.1");</script>
+<script>
+	$(function(){
+		$("#notice").delay(5000).fadeOut();
+	});
+</script>
+
+</head>
+
+<body onload="init();">
+
+	<div id="notice" style="z-index:10;">
+		<h1>Use your mouse to draw some lines!</h1>
+		<p>DISCLAIMER: This works best in Chrome, OK in Firefox and not at all in IE (sorry)</p>	
+	</div>
+	
+	
+	<!-- Analytics -->			
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-6320612-1");
+			pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+		
+</body>
+</html>

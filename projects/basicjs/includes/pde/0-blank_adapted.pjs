@@ -1,0 +1,10 @@
+// 	Processing.js Example
+
+void setup() {
+	//window.innerWidth is a regular JS function not ProcessingJS
+	size(window.innerWidth, window.innerHeight);
+}
+
+void draw() {
+  background(#DD0066);
+}
