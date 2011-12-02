@@ -1,0 +1,238 @@
+
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&hr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - weather",
+    "totalResults": "4420000",
+    "searchTerms": "weather",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "011038042642015202118:hp55-jj0p9o"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - weather",
+    "totalResults": "4420000",
+    "searchTerms": "weather",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "011038042642015202118:hp55-jj0p9o"
+   }
+  ]
+ },
+ "context": {
+  "title": "Demo Server"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Weather - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weather is the state of the atmosphere, to the degree that it is hot or cold, wet or   dry, calm or stormy, clear or cloudy. Most weather phenomena occur in the ...",
+   "htmlSnippet": "\u003cb\u003eWeather\u003c/b\u003e is the state of the atmosphere, to the degree that it is hot or cold, wet or \u003cbr\u003e  dry, calm or stormy, clear or cloudy. Most \u003cb\u003eweather\u003c/b\u003e phenomena occur in the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "LEFPw_ptKqQJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Great_Red_Spot_From_Voyager_1.jpg/250px-Great_Red_Spot_From_Voyager_1.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "189",
+      "src": "http://t2.gstatic.com/images?q=tbn:ANd9GcRmHjquhxIIERLLGIvQ-_LWGRSRTffAVYGcwBBJR2o31hWvKhRuwrj9WmGN"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather forecasting - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e forecasting - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_forecasting",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weather forecasting is the application of science and technology to predict the   state of the atmosphere for a given location. Human beings have attempted to ...",
+   "htmlSnippet": "\u003cb\u003eWeather\u003c/b\u003e forecasting is the application of science and technology to predict the \u003cbr\u003e  state of the atmosphere for a given location. Human beings have attempted to \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "BjKEK8kuY5MJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Meyers_b16_s0570.jpg/220px-Meyers_b16_s0570.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "280",
+      "src": "http://t3.gstatic.com/images?q=tbn:ANd9GcQ2l3KXZsztM-jHd4kazIRnyZUYVJDlST5-0RQugfWlrsD0wuQmlLexMygP"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather Girls - Its Raining Men - YouTube",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e Girls - Its Raining Men - YouTube",
+   "link": "http://www.youtube.com/watch?v=hGLZqDXau98",
+   "displayLink": "www.youtube.com",
+   "snippet": "... saqpersaqper on Feb 24, 2008. Weather Girls - Its Raining Men ... 13362 likes,  389 dislikes; Artist: The Weather Girls; Buy: Buy \"It's ...",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e saqpersaqper on Feb 24, 2008. \u003cb\u003eWeather\u003c/b\u003e Girls - Its Raining Men \u003cb\u003e...\u003c/b\u003e 13362 likes,  389 dislikes; Artist: The \u003cb\u003eWeather\u003c/b\u003e Girls; Buy: Buy &quot;It&#39;s \u003cb\u003e...\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather Underground - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e Underground - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_Underground",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weatherman, known colloquially as the Weathermen and later the Weather   Underground Organization (abbreviated WUO), was an American radical left ...",
+   "htmlSnippet": "Weatherman, known colloquially as the Weathermen and later the \u003cb\u003eWeather\u003c/b\u003e \u003cbr\u003e  Underground Organization (abbreviated WUO), was an American radical left \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "QmulVHQVj0QJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/HaymarketPoliceMemorial.jpg/220px-HaymarketPoliceMemorial.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "233",
+      "src": "http://t1.gstatic.com/images?q=tbn:ANd9GcRvYH2-yte7gEUw_Rp0gbbE8a0NBvplhbLve7kznsPz3SNFTTeuYj4HCZ6-"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Weatherman or Weather Underground Organization",
+      "label": "United States",
+      "note": "1969"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather Report - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e Report - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_Report",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weather Report was an American jazz-rock band of the 1970s and early 1980s.   The band was co-led by the Austrian-born keyboard player Joe Zawinul and the ...",
+   "htmlSnippet": "\u003cb\u003eWeather\u003c/b\u003e Report was an American jazz-rock band of the 1970s and early 1980s. \u003cbr\u003e  The band was co-led by the Austrian-born keyboard player Joe Zawinul and the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "elTqoNwQ8gMJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jaco-Pastorius_seated_1980.jpg/210px-Jaco-Pastorius_seated_1980.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "168",
+      "height": "252",
+      "src": "http://t0.gstatic.com/images?q=tbn:ANd9GcRmmNotwOqOPI_HSr2m4_KRsZL6uxAyDBzGGeMOf781ziWyKxLK3gjI9Us"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Weather Report"
+     },
+     {
+      "fn": "Weather Report"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Space weather - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Space \u003cb\u003eweather\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Space_weather",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Space weather is the concept of changing environmental conditions in near-  Earth space or the space from the Sun's atmosphere to the Earth's atmosphere. ...",
+   "htmlSnippet": "Space \u003cb\u003eweather\u003c/b\u003e is the concept of changing environmental conditions in near-\u003cbr\u003e  Earth space or the space from the Sun&#39;s atmosphere to the Earth&#39;s atmosphere. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "ENsE5DEY0z4J"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather radar - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e radar - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_radar",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weather radar, also called weather surveillance radar (WSR) and Doppler   weather radar, is a type of radar used to locate precipitation, calculate its motion, ...",
+   "htmlSnippet": "\u003cb\u003eWeather\u003c/b\u003e radar, also called \u003cb\u003eweather\u003c/b\u003e surveillance radar (WSR) and Doppler \u003cbr\u003e  \u003cb\u003eweather\u003c/b\u003e radar, is a type of radar used to locate precipitation, calculate its motion, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "qhQbxsbZxbEJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/e/e2/Radar-beam.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "272",
+      "height": "185",
+      "src": "http://t2.gstatic.com/images?q=tbn:ANd9GcQwcTfVZlHBXk1LrJIwiQ8zeXJBE8gIGTNq4sSSMgMSAP9X6ZBLYhZJTTu-"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Bad weather 21-2-2007 - YouTube",
+   "htmlTitle": "Bad \u003cb\u003eweather\u003c/b\u003e 21-2-2007 - YouTube",
+   "link": "http://www.youtube.com/watch?v=tfEo6E6nElE",
+   "displayLink": "www.youtube.com",
+   "snippet": "A clip of working in winter conditions on the North Sea. Fyi, the vessel is the  Calamity Jane, an offshore support vessel. L.o.a. : 141 m or 463 ft.",
+   "htmlSnippet": "A clip of working in winter conditions on the North Sea. Fyi, the vessel is the  Calamity Jane, an offshore support vessel. L.o.a. : 141 m or 463 ft."
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather satellite - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e satellite - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_satellite",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "The weather satellite is a type of satellite that is primarily used to monitor the   weather and climate of the Earth. Satellites can be either polar orbiting, seeing   the ...",
+   "htmlSnippet": "The \u003cb\u003eweather\u003c/b\u003e satellite is a type of satellite that is primarily used to monitor the \u003cbr\u003e  \u003cb\u003eweather\u003c/b\u003e and climate of the Earth. Satellites can be either polar orbiting, seeing \u003cbr\u003e  the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "5GG1aySLR-0J",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/TIROS-1-Earth.png/250px-TIROS-1-Earth.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "223",
+      "src": "http://t2.gstatic.com/images?q=tbn:ANd9GcTu3hiDLdzERWqwBuo_HkE5WCOkN_EltF5wrwr-OWUrBvOr9kmzPSfguhpD"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weather derivative - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWeather\u003c/b\u003e derivative - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Weather_derivative",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Weather derivatives are financial instruments that can be used by organizations   or individuals as part of a risk management strategy to reduce risk associated ...",
+   "htmlSnippet": "\u003cb\u003eWeather\u003c/b\u003e derivatives are financial instruments that can be used by organizations \u003cbr\u003e  or individuals as part of a risk management strategy to reduce risk associated \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "ynLPuaYqonMJ"
+  }
+ ]
+}

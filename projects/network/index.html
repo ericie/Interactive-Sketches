@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Backbone</title>
+
+	<!-- STYLES -->
+	<link rel="stylesheet" type="text/css" href="css/general.css" />
+
+	<!-- LIBS -->
+	<script src="lib/underscore-min.js"></script>
+	<script src="lib/zepto.min.js"></script>
+	<script src="lib/backbone.js"></script>
+	<script src="lib/keymaster.min.js"></script>
+	<script src="lib/Tween.js"></script>
+
+	<!-- APPLICATION -->
+	<script src="js/app.js"></script>
+	<script src="js/utils.js"></script>
+
+	<!-- MAIN -->
+	<script src="js/controllers/mainController.js"></script>
+	<script src="js/models/mainModels.js"></script>
+
+	<!-- SPIDER -->
+	<script src="js/models/spiderModels.js"></script>
+	<script src="js/collections/spiderCollections.js"></script>
+	<script src="js/views/spiderViews.js"></script>
+	
+	<!-- TERM -->
+	<script src="js/models/termModels.js"></script>
+	<script src="js/collections/termCollections.js"></script>
+	<script src="js/controllers/termCollectionController.js"></script>
+	<script src="js/views/termViews.js"></script>
+	<script src="js/views/termCollectionView.js"></script>
+	
+</head>
+
+<body>
+	<div class="app 2d">Canvas</div>
+	<div class="app outline">
+		<h1>Outline Display</h1>	
+	</div>
+	
+	<!--<div id="target" style="position:absolute; top:400px;">I Am a Target</div>-->
+
+</body>
+
+<script type="text/javascript">
+// Leaving this in as a demo for tween for a bit
+	//initialize();
+	//animate();
+	/*
+	TWEEN.start();
+
+    var output = document.createElement('div');
+    var target = document.getElementById('target');
+    target.appendChild(output);
+
+    var position = {x: 50, y: 0};
+    var tween = new TWEEN.Tween(position).to({x: 400}, 2000).onUpdate(update);
+    tween.delay(500);
+	tween.easing(TWEEN.Easing.Quadratic.EaseInOut);
+	tween.start();
+
+    function update() {
+
+        var newX = position.x;
+
+        output.innerHTML = 'x == ' + Math.round(newX);
+        target.style.left = (newX) + 'px';
+
+    };
+    */
+</script>
+
+
+</html>

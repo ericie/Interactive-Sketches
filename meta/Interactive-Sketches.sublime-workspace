@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li>  (element)"
+			],
+			[
+				"ul",
+				"ul>  (element)"
+			],
+			[
+				"margin",
+				"margin: margin-left: length"
+			],
+			[
+				"min",
+				"margin: margin: T R B L"
+			],
+			[
+				"c",
+				"color:   (property)"
+			],
+			[
+				"background",
+				"background:   (property)"
+			],
+			[
+				"solid",
+				"solid  (value)"
+			],
+			[
+				"width",
+				"min-width"
+			],
+			[
+				"w",
+				"width:   (property)"
+			],
+			[
+				"padding",
+				"padding: padding: all"
+			],
+			[
+				"styl",
+				"list-style"
+			],
+			[
+				"overflow",
+				"overflow: overflow: type"
+			],
+			[
+				"body",
+				"body: <body>"
+			],
+			[
+				"position",
+				"background-position"
+			],
+			[
+				"y",
+				"repeat-y"
+			],
+			[
+				"border",
+				"border: border-top: size style color"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"text",
+				"text: text-indent: length"
+			],
+			[
+				"a",
+				"a>  (element)"
+			],
+			[
+				"wi",
+				"width:   (property)"
+			],
+			[
+				"max",
+				"max-height:   (property)"
+			],
+			[
+				"p",
+				"padding: padding: V H"
+			],
+			[
+				"line",
+				"line-height:   (property)"
+			],
+			[
+				"h1",
+				"h1>  (element)"
+			],
+			[
+				"z",
+				"z: z-index: index"
+			],
+			[
+				"bott",
+				"border-bottom"
+			],
+			[
+				"div",
+				"div>  (element)"
+			],
+			[
+				"700",
+				"700  (value)"
+			],
+			[
+				"class",
+				"@class"
+			],
+			[
+				"dashed",
+				"dashed  (value)"
+			],
+			[
+				"hei",
+				"line-height"
+			],
+			[
+				"re",
+				"background-repeat"
+			],
+			[
+				"rep",
+				"background-repeat:   (property)"
+			],
+			[
+				"color",
+				"color: color: name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 343.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 464.28125
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/css/general.css",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/js/app.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/js/application.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/initialize.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/data/bicycle.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/data/pigeon.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/data/www.bicycling.com.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/data/walker.json",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/network.html",
+		"/Users/ericishiieckhardt/Desktop/destroy.png",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/css/application.css",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-spine/lib/jquery/jquery-1.7.1.min.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/utils.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/views/spiderViews.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/css/general.css",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/views/termViews.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/models/termModels.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/views/termCollectionView.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/app.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/controllers/mainController.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/collections/termCollections.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/controllers/termCollectionController.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/controllers/termCollectionsController.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/models/mainModel.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/controllers/appController.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/lib/tween/src/Tween.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/util.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/collections/spiderCollections.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/js/models/spiderModels.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/dat",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/lib/dat/dat.gui.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/process-notes.txt",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/app.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/untitled",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/data/test1.json",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/lib/backbone.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network/lib/backbone-min.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/js/threejs/src/extras/core/CurvePath.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/3a/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/3a/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/3/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/process_notes.txt",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/3/todo.txt",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/todo.txt",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/2/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/1/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/1/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/threejs/examples/canvas_geometry_cube.html",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/js/threejs/src/cameras/Camera.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/threejs/examples/js/ImprovedNoise.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/threejs/examples/js/Tween.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/actions.js",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/demo/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/threejs/lesson1.html",
+		"/Users/ericishiieckhardt/Dropbox Personal/Dropbox/Documents/eric-eckhardt/img/link-under.png",
+		"/Users/ericishiieckhardt/Dropbox Personal/Dropbox/Documents/eric-eckhardt/img/link-under-off.png",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/contact/css/style.css",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/contact/process.php",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/contact/index.php",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/contact/demo.php",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/css/style.css",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/projects/index.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/contact/index.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/js/plugins.js",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/about/index.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/index.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/writing/what-i-learned/MadeInMidtown.md",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/writing/scratch",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/humans.txt",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/projects/archive/index.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/-meta/html5-boilerplate-007754e/humans.txt",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/projects/index2.html",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/-meta/html5-boilerplate-007754e/favicon.ico",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/-meta/html5-boilerplate-007754e/apple-touch-icon.png",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/User/html5-boiler.sublime-snippet",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/crossdomain.xml",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/robots.txt",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/-meta/html5-boilerplate-007754e/robots.txt",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/.htaccess",
+		"/Users/eric_adapted/Documents/workspace/eric-eckhardt/untitled.html",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel_pane_hair.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/page--games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/mothership/mothershipstark/layout.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/actions.js",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--system--main-menu.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/html.tpl.php",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-accessories.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/template.php",
+		"/Users/eric_adapted/Documents/workspace/og/includes/image.inc",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/blocks.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/acc_over_button_on.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/html-reset.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/tree.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--homepage.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-a-cat.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu--menu-main.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/nodes.css",
+		"/Users/eric_adapted/Documents/workspace/og/--process-notes.md",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/Swing.js",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--game.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--pane-a-cat.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-accessories.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-mtd.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--pane-doll.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-accessories.html",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--block--4.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-related2.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/hair-cloud.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-comes-with.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-next.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--doll-pane.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--detail.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/page.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel_pane_hair.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ambMode",
+			"event",
+			"bind",
+			"Spine.Even",
+			"event",
+			"addOne",
+			"destroyDone",
+			"init",
+			"EaseInOut",
+			"elastic",
+			"mouse",
+			"target",
+			"spline",
+			"material",
+			"width",
+			"scale",
+			"animate",
+			"colors",
+			"points",
+			"vec ",
+			"vec",
+			"var vec",
+			"var vec =",
+			"line",
+			"spline",
+			"scene.add",
+			"animate",
+			"render",
+			"camera",
+			"Camera",
+			"Spline",
+			"	Completed by	Josh L.",
+			"	Completed by	Eric I",
+			"	Completed by	Eric I.",
+			"To-do	",
+			"renderer",
+			"camera",
+			"DEPRECATED: Camera hasn't been added to a Scene. Adding it...",
+			"Camera",
+			"background-posi",
+			"border:",
+			"dashed",
+			"dotted",
+			"extra",
+			"error",
+			"background",
+			"background-color",
+			"red",
+			"submit",
+			"input",
+			"center-wrapper",
+			"greater",
+			"60%",
+			"450",
+			"#contact-form input",
+			"#contact-form input, #contact-form",
+			"errors",
+			"require",
+			"get",
+			"mail",
+			"jquery",
+			"modern",
+			"max-",
+			"#FE57A1",
+			"descript",
+			"178",
+			"title",
+			"/a",
+			"center",
+			"182",
+			"node-teaser",
+			"repeat",
+			"region",
+			"param",
+			"return",
+			"block",
+			"leaf",
+			" {",
+			"h1",
+			"draggable",
+			"cloud_rotat",
+			"absolute",
+			"hover",
+			"h1",
+			"Teaser",
+			"swing",
+			"search",
+			"game",
+			"shared/download_buttons/get_flash_player.gif ",
+			"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif ",
+			"game",
+			"each",
+			"access",
+			"lliinnkk",
+			"full",
+			".section",
+			".menu",
+			"nav-book-on",
+			"hair-video",
+			"font-",
+			"buy",
+			"buy-",
+			"buy-link",
+			"blue",
+			"color:",
+			"arrow",
+			"-20px",
+			"src='\"",
+			"<img src='\"",
+			"navigation ul.menu li ul.menu",
+			"region-footer",
+			".region-footer",
+			".png\");",
+			"hover",
+			"nav-",
+			"hover",
+			"wall",
+			"foreach",
+			"!empty",
+			"each",
+			"text-inden",
+			"nav-hair",
+			"nav-",
+			"background-image",
+			"hair-coming-soon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src='/\"",
+			"<img src='/\"",
+			"-on.png\");"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"views-view-fields--",
+				"og/templates/views-view-fields--panel-pane-games.tpl.php"
+			],
+			[
+				"lay",
+				"og/css/layout-fixed.css"
+			],
+			[
+				"",
+				"og/css/blocks.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}

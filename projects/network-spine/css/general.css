@@ -1,0 +1,47 @@
+/* General CSS */
+
+body { 
+	margin:0px; 
+	padding:0px; 
+	background:white;
+	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+	font-size:.89em;
+}
+
+.app {
+	display:none;
+}
+
+
+/* 
+Display Overrides for debugging or no-JS displays 
+*/
+
+body.outline .app.outline {
+	display:block;
+}
+
+#outline {
+	padding:10px;
+}
+#outline .col {
+	float:left;
+	position:relative;
+	width:300px;
+	border-top:2px solid #333333;
+	margin-right:20px;
+	padding:5px;
+	background-color:rgba(240,240,240,.7);
+}
+
+#outline .col ol{
+	border-top:1px solid #cccccc;
+}
+#outline .col ol li{
+	border-bottom:1px dotted #dddddd;
+}
+
+/* OUTLINE STYLES */
+div.app.outline {
+	padding:5px 20px;
+}

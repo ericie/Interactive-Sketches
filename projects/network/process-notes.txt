@@ -1,0 +1,10 @@
+- Make App
+- Add Background to App
+- Add circles to app
+- Repel from overlapping circles
+- Die when off screen
+- Shring when old
+- Die when too small
+- Connect Circles
+- Brighten on connection
+- Brighten Parent on connection

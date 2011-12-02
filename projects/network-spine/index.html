@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spider</title>
+  <link rel="stylesheet" href="css/general.css" type="text/css" charset="utf-8">
+
+  <script src="lib/json-js/json2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/jquery/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/jquery/jquery.tmpl.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/spine/spine.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/spine/ajax.js"></script>
+  <script src="lib/spine/list.js"></script>
+  <script src="lib/spine/local.js"></script>
+  <script src="lib/spine/manager.js"></script>
+  <script src="lib/spine/relation.js"></script>
+  <script src="lib/spine/route.js"></script>
+  <script src="lib/spine/tabs.js"></script>
+  <script src="lib/spine/tmpl.js"></script>
+
+  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Template Block -->
+  <script type="text/x-jquery-tmpl" id="taskTemplate">
+  <div class="item {{if done}}done{{/if}}">
+    <div class="view" title="Double click to edit...">
+      <input type="checkbox" {{if done}}checked="checked"{{/if}}> 
+      <span>${name}</span> <a class="destroy"></a>
+    </div>
+  </div>
+  </script>
+
+</head>
+<body>
+
+  <div id="views">
+  <div id="outline">
+    <section class="col" id="que_col">
+      <h1>Que</h1>
+      <ol>
+      </ol>
+    </section>
+
+    <section class="col" id="active_col">
+      <h1>Active</h1>
+      <ol>
+      </ol>
+    </section>
+
+    <section class="col" id="archived_col">
+      <h1>Archived</h1>
+      <ol>
+      </ol>
+    </section>
+    
+
+  </div>
+</div>
+
+</body>
+</html>

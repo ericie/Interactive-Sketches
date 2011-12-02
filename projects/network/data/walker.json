@@ -1,0 +1,345 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&hr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - walker",
+    "totalResults": "3490000",
+    "searchTerms": "walker",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "011038042642015202118:hp55-jj0p9o"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - walker",
+    "totalResults": "3490000",
+    "searchTerms": "walker",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "011038042642015202118:hp55-jj0p9o"
+   }
+  ]
+ },
+ "context": {
+  "title": "Demo Server"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Walker - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "From Wikipedia, the free encyclopedia. Jump to: navigation, search. Look up   walker in Wiktionary, the free dictionary. Walker may refer to: Contents. 1 Places ...",
+   "htmlSnippet": "From Wikipedia, the free encyclopedia. Jump to: navigation, search. Look up \u003cbr\u003e  \u003cb\u003ewalker\u003c/b\u003e in Wiktionary, the free dictionary. \u003cb\u003eWalker\u003c/b\u003e may refer to: Contents. 1 Places \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "RkTi2e27MrYJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Walker (mobility) - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e (mobility) - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker_(mobility)",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "A walker or walking frame is a tool for disabled or elderly people who need   additional support to maintain balance or stability while walking. The British   English ...",
+   "htmlSnippet": "A \u003cb\u003ewalker\u003c/b\u003e or walking frame is a tool for disabled or elderly people who need \u003cbr\u003e  additional support to maintain balance or stability while walking. The British \u003cbr\u003e  English \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "mFrU95M1bOMJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Walker._frame.jpg/250px-Walker._frame.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "194",
+      "height": "259",
+      "src": "http://t2.gstatic.com/images?q=tbn:ANd9GcTWTH2HlQLDPuFz8gaHXboA0zpaGdFH8KqzMOiDH8mR-dOOlQoBNAg-oqE"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Walker, Minnesota - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e, Minnesota - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker,_Minnesota",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Patrick McGarry founded Walker in 1896 following the arrival of the railroad to the   area. The settlement was strategically named after logging giant Thomas B. ...",
+   "htmlSnippet": "Patrick McGarry founded \u003cb\u003eWalker\u003c/b\u003e in 1896 following the arrival of the railroad to the \u003cbr\u003e  area. The settlement was strategically named after logging giant Thomas B. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "y43vIBtv5YMJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/en/thumb/8/82/Walker,_Minnesota_1901.jpg/350px-Walker,_Minnesota_1901.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "265",
+      "height": "190",
+      "src": "http://t3.gstatic.com/images?q=tbn:ANd9GcTE0nlmXT-g_1RCm5grGjgtGqsR3YxA7Tg6KsDRlADl0FPlO2i7Pz0TwEUE"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Walker, Minnesota",
+      "category": "City"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Walker (film) - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e (film) - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker_(film)",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Walker is a 1987 Acid Western film directed by Alex Cox. The film based on the   life story of William Walker (played by Ed Harris), the American filibuster who ...",
+   "htmlSnippet": "\u003cb\u003eWalker\u003c/b\u003e is a 1987 Acid Western film directed by Alex Cox. The film based on the \u003cbr\u003e  life story of William \u003cb\u003eWalker\u003c/b\u003e (played by Ed Harris), the American filibuster who \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "-y4C8cJQLsYJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Walkertheatrical.jpg/220px-Walkertheatrical.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "262",
+      "src": "http://t0.gstatic.com/images?q=tbn:ANd9GcSGyMiS6VyUPMVMVvNjPPv0oRE59aS0VVE9zL8qSFyrocgM6_iWNaL3kzo5"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Walker, Newcastle upon Tyne - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e, Newcastle upon Tyne - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker,_Newcastle_upon_Tyne",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Walker is a residential suburb and electoral ward just east of the centre of   Newcastle upon Tyne, England. Walker's name is a hybrid of Old English and   Viking ...",
+   "htmlSnippet": "\u003cb\u003eWalker\u003c/b\u003e is a residential suburb and electoral ward just east of the centre of \u003cbr\u003e  Newcastle upon Tyne, England. \u003cb\u003eWalker&#39;s\u003c/b\u003e name is a hybrid of Old English and \u003cbr\u003e  Viking \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "Sob3bgaDFdoJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tyne_and_Wear_UK_location_map.svg/240px-Tyne_and_Wear_UK_location_map.svg.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "192",
+      "height": "168",
+      "src": "http://t0.gstatic.com/images?q=tbn:ANd9GcQB58SmWS_5bnYqWqjFKMTOxWVuf2-7_3A7nguQo2Q_K5AgfMgDZiXfqxiE"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Walker, Newcastle upon Tyne"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Alice Walker - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Alice \u003cb\u003eWalker\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Alice_Walker",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Alice Malsenior Walker (born February 9, 1944) is an American author, poet, and   activist. She has written both fiction and essays about race and gender. She is ...",
+   "htmlSnippet": "Alice Malsenior \u003cb\u003eWalker\u003c/b\u003e (born February 9, 1944) is an American author, poet, and \u003cbr\u003e  activist. She has written both fiction and essays about race and gender. She is \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "JPYzmF2olrMJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Alice_Walker.jpg/240px-Alice_Walker.jpg"
+     }
+    ],
+    "person": [
+     {
+      "role": "Novelist, short story writer, poet, political activist"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "192",
+      "height": "166",
+      "src": "http://t0.gstatic.com/images?q=tbn:ANd9GcQTrn2aD_aRhxHCUDkkzaVSmoagOk_XLe9AoGY6wCwOT8xpiWdQYjcyqsM"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Alice Walker",
+      "url": "alicewalkersgarden.com",
+      "url_text": "alicewalkersgarden.com",
+      "bday": "1944-02-09",
+      "role": "Novelist, short story writer, poet, political activist",
+      "category": "African American literature"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Walker (Star Wars) - Wikipedia, the free encyclopedia",
+   "htmlTitle": "\u003cb\u003eWalker\u003c/b\u003e (Star Wars) - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Walker_(Star_Wars)",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Walkers are vehicles from the Star Wars universe that traverse the landscape on   mechanical legs. They are used by the Old Republic and the Galactic Empire ...",
+   "htmlSnippet": "\u003cb\u003eWalkers\u003c/b\u003e are vehicles from the Star Wars universe that traverse the landscape on \u003cbr\u003e  mechanical legs. They are used by the Old Republic and the Galactic Empire \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "z9jsdKzEgFMJ",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/en/6/68/Imperial_Walker.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "161",
+      "height": "240",
+      "src": "http://t1.gstatic.com/images?q=tbn:ANd9GcSmb7P_48E74Q7XECpPnls_tNSnQP3RbiD8aDSjeYRyA0HozQoNWRJNHmgA"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Kemba Walker - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Kemba \u003cb\u003eWalker\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Kemba_Walker",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Kemba Hudley Walker (born May 8, 1990) is an American professional   basketball player for the Charlotte Bobcats. Walker grew up in The Bronx, New   York and ...",
+   "htmlSnippet": "Kemba Hudley \u003cb\u003eWalker\u003c/b\u003e (born May 8, 1990) is an American professional \u003cbr\u003e  basketball player for the Charlotte Bobcats. \u003cb\u003eWalker\u003c/b\u003e grew up in The Bronx, New \u003cbr\u003e  York and \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "DJOaTPbnMV4J",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kemba_Walker.jpg/220px-Kemba_Walker.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "264",
+      "src": "http://t1.gstatic.com/images?q=tbn:ANd9GcT7GOJV5Du55gj4EOoDUKdi57dVrDCrKWq7pVAXGXAJu9qs0DCLwExANqA"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Kemba Walker",
+      "bday": "1990-05-08"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Scott Walker (politician) - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Scott \u003cb\u003eWalker\u003c/b\u003e (politician) - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Scott_Walker_(politician)",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Scott Kevin Walker (born November 2, 1967) is an American Republican   politician who began serving as the 45th Governor of Wisconsin on January 3,   2011, ...",
+   "htmlSnippet": "Scott Kevin \u003cb\u003eWalker\u003c/b\u003e (born November 2, 1967) is an American Republican \u003cbr\u003e  politician who began serving as the 45th Governor of Wisconsin on January 3, \u003cbr\u003e  2011, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "q8EM5TRh324J",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ScottWalker.jpg/250px-ScottWalker.jpg"
+     }
+    ],
+    "person": [
+     {
+      "org": "Democratic"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "133",
+      "src": "http://t0.gstatic.com/images?q=tbn:ANd9GcSAlSiIvRN0d2XrVA4tgmWEHSMGNvRJBtGE-ZVj3WCZ6kS4Aa-TAWkOpH3c"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Scott Walker",
+      "bday": "1967-11-02",
+      "label": "Governor's Mansion"
+     },
+     {
+      "fn": "Tom Barrett"
+     },
+     {
+      "fn": "Mark Neumann"
+     },
+     {
+      "fn": "None",
+      "nickname": "None"
+     },
+     {
+      "fn": "Jim Heidenrich"
+     },
+     {
+      "fn": "Dale Dulberger"
+     },
+     {
+      "fn": "None",
+      "nickname": "None"
+     },
+     {
+      "fn": "Christopher T. Ament"
+     },
+     {
+      "fn": "Larry A. Boge"
+     },
+     {
+      "fn": "Scott Walker"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "William Walker (filibuster) - Wikipedia, the free encyclopedia",
+   "htmlTitle": "William \u003cb\u003eWalker\u003c/b\u003e (filibuster) - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/William_Walker_(filibuster)",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "William Walker (May 8, 1824– September 12, 1860) was a US lawyer, journalist   and adventurer, who organized several private military expeditions into Latin ...",
+   "htmlSnippet": "William \u003cb\u003eWalker\u003c/b\u003e (May 8, 1824– September 12, 1860) was a US lawyer, journalist \u003cbr\u003e  and adventurer, who organized several private military expeditions into Latin \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "bA3tbFYhsc0J",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/WilliamWalker.jpg/220px-WilliamWalker.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "220",
+      "src": "http://t1.gstatic.com/images?q=tbn:ANd9GcSkH9D0FPF-pIG2VrChW2aQLYZi6k8__18wFsR4mQcU4aUo7yRRZt9R0_A"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "William Walker",
+      "bday": "1824-05-08"
+     }
+    ]
+   }
+  }
+ ]
+}

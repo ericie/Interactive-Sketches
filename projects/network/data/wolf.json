@@ -1,0 +1,184 @@
+
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&hr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - wolf",
+    "totalResults": "66300000",
+    "searchTerms": "wolf",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017576662512468239146:omuauf_lfve"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - wolf",
+    "totalResults": "66300000",
+    "searchTerms": "wolf",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017576662512468239146:omuauf_lfve"
+   }
+  ]
+ },
+ "context": {
+  "title": "CS Curriculum",
+  "facets": [
+   [
+    {
+     "label": "lectures",
+     "anchor": "Lectures"
+    }
+   ],
+   [
+    {
+     "label": "assignments",
+     "anchor": "Assignments"
+    }
+   ],
+   [
+    {
+     "label": "reference",
+     "anchor": "Reference"
+    }
+   ]
+  ]
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "CSE 222 (2:30, Wolf)",
+   "htmlTitle": "CSE 222 (2:30, \u003cb\u003eWolf\u003c/b\u003e)",
+   "link": "http://www.cse.ohio-state.edu/~wolfann/cse222/",
+   "displayLink": "www.cse.ohio-state.edu",
+   "snippet": "CSE 222 (2:30, Wolf) Home Page. Autumn 2011. Class Meetings. Monday,   Tuesday, Wednesday: 2:30-3:18 (lecture/activity) in SO N0050; Friday: 2:30-3:18 ...",
+   "htmlSnippet": "CSE 222 (2:30, \u003cb\u003eWolf\u003c/b\u003e) Home Page. Autumn 2011. Class Meetings. Monday, \u003cbr\u003e  Tuesday, Wednesday: 2:30-3:18 (lecture/activity) in SO N0050; Friday: 2:30-3:18 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "dZe_gbvoiCQJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSE 211 (2:30, Wolf) Winter 2010",
+   "htmlTitle": "CSE 211 (2:30, \u003cb\u003eWolf\u003c/b\u003e) Winter 2010",
+   "link": "http://www.cse.ohio-state.edu/~wolfann/cse221/",
+   "displayLink": "www.cse.ohio-state.edu",
+   "snippet": "CSE 221 (2:30, Wolf) Home Page. Winter 2010. Class Meetings. MWF 2:30-3:18   in DL 480 (lecture/discussion); T 2:30-3:18 in DL 280 (closed lab activities) ...",
+   "htmlSnippet": "CSE 221 (2:30, \u003cb\u003eWolf\u003c/b\u003e) Home Page. Winter 2010. Class Meetings. MWF 2:30-3:18 \u003cbr\u003e  in DL 480 (lecture/discussion); T 2:30-3:18 in DL 280 (closed lab activities) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "jXRwMLFdowYJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Annatala Wolf"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSE 203 (12:30, Wolf) Autumn 2009",
+   "htmlTitle": "CSE 203 (12:30, \u003cb\u003eWolf\u003c/b\u003e) Autumn 2009",
+   "link": "http://www.cse.ohio-state.edu/~wolfann/cse203/",
+   "displayLink": "www.cse.ohio-state.edu",
+   "snippet": "CSE 203 (12:30, Wolf) Home Page. Autumn 2009. Class Meetings. MTW 12:30-1:  18 in DL 280 (closed lab activities); F 12:30-1:18 in DL 480 (lecture/discussion) ...",
+   "htmlSnippet": "CSE 203 (12:30, \u003cb\u003eWolf\u003c/b\u003e) Home Page. Autumn 2009. Class Meetings. MTW 12:30-1:\u003cbr\u003e  18 in DL 280 (closed lab activities); F 12:30-1:18 in DL 480 (lecture/discussion) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "Oui6QiLAXm8J",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Annatala Wolf"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSE 142 Autumn 2006 -- Homework/Projects",
+   "htmlTitle": "CSE 142 Autumn 2006 -- Homework/Projects",
+   "link": "http://www.cs.washington.edu/education/courses/cse142/06au/homework/homework.html",
+   "displayLink": "www.cs.washington.edu",
+   "snippet": "(The wolves have been renamed to protect your privacy. If you want to know your   wolf's number (and weren't in the top-16 standings and therefore can't ...",
+   "htmlSnippet": "(The \u003cb\u003ewolves\u003c/b\u003e have been renamed to protect your privacy. If you want to know your \u003cbr\u003e  \u003cb\u003ewolf&#39;s\u003c/b\u003e number (and weren&#39;t in the top-16 standings and therefore can&#39;t \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "QIyaZO6hRWYJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSE Lecture \"Opening Lines\"",
+   "htmlTitle": "CSE Lecture &quot;Opening Lines&quot;",
+   "link": "http://www.cs.ubc.ca/~wolf/590et/openers.html",
+   "displayLink": "www.cs.ubc.ca",
+   "snippet": "emphasizes careful high-level thinking over \"jumping in and hacking\"; variables/  types: ascii wolf (seeing bits as values) -- showed an ASCII art picture of a wolf ...",
+   "htmlSnippet": "emphasizes careful high-level thinking over &quot;jumping in and hacking&quot;; variables/\u003cbr\u003e  types: ascii \u003cb\u003ewolf\u003c/b\u003e (seeing bits as values) -- showed an ASCII art picture of a \u003cb\u003ewolf\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "DeV6jq63BMkJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "New Course",
+   "htmlTitle": "New Course",
+   "link": "http://courses.cs.tamu.edu/rabi/cpsc617/Syllabus.htm",
+   "displayLink": "courses.cs.tamu.edu",
+   "snippet": "G. Micheli, R.Ernst, and W.Wolf, editors, \"Readings in Hardware/Software Co-  Design\", ... Lecture notes; J.Staunstrup and W.Wolf,editors,\"Hardware/Software ...",
+   "htmlSnippet": "G. Micheli, R.Ernst, and W.\u003cb\u003eWolf\u003c/b\u003e, editors, &quot;Readings in Hardware/Software Co-\u003cbr\u003e  Design&quot;, \u003cb\u003e...\u003c/b\u003e Lecture notes; J.Staunstrup and W.\u003cb\u003eWolf\u003c/b\u003e,editors,&quot;Hardware/Software \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "lV_DQx-w1X4J",
+   "pagemap": {
+    "metatags": [
+     {
+      "title": "New Course",
+      "progid": "Word.Document",
+      "originator": "Microsoft Word 2008"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Intefaces in Java",
+   "htmlTitle": "Intefaces in Java",
+   "link": "http://www.cise.ufl.edu/class/cis3023su10/slides/Java_Interfaces_1.pptx",
+   "displayLink": "www.cise.ufl.edu",
+   "snippet": "Jun 9, 2010 ... Provide empty body for them in Lion and Wolf classes ... Wolf. Dog. What do we   need? Pet behaviors just in Pet classes like Dog and Cat ...",
+   "htmlSnippet": "Jun 9, 2010 \u003cb\u003e...\u003c/b\u003e Provide empty body for them in Lion and \u003cb\u003eWolf\u003c/b\u003e classes \u003cb\u003e...\u003c/b\u003e \u003cb\u003eWolf\u003c/b\u003e. Dog. What do we \u003cbr\u003e  need? Pet behaviors just in Pet classes like Dog and Cat \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "HkGz5UaKW0IJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Slide 1",
+   "htmlTitle": "Slide 1",
+   "link": "http://www.cise.ufl.edu/class/cop3503fa11/lectures/Lecture6-Sep7.pptx",
+   "displayLink": "www.cise.ufl.edu",
+   "snippet": "Provide empty body for it in Lion and Wolf classes ... Wolf. Dog. 12 / 44.   Option 3. Add concrete methods: play() to Cat and Dog classes ...",
+   "htmlSnippet": "Provide empty body for it in Lion and \u003cb\u003eWolf\u003c/b\u003e classes \u003cb\u003e...\u003c/b\u003e \u003cb\u003eWolf\u003c/b\u003e. Dog. 12 / 44. \u003cbr\u003e  Option 3. Add concrete methods: play() to Cat and Dog classes \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "W-uwmxXURhEJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Steven A. Wolfman, Instructor, University of British Columbia ...",
+   "htmlTitle": "Steven A. Wolfman, Instructor, University of British Columbia \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.cs.ubc.ca/~wolf/work/",
+   "displayLink": "www.cs.ubc.ca",
+   "snippet": "Steven A. Wolfman. Instructor, UBC Computer Science. In fall 2004 I started as a   tenure-track instructor in the CS department at the University of British Columbia ...",
+   "htmlSnippet": "Steven A. Wolfman. Instructor, UBC Computer Science. In fall 2004 I started as a \u003cbr\u003e  tenure-track instructor in the CS department at the University of British Columbia \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "bYJJzGwYWEQJ"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSE 142 Winter 2007 -- Home",
+   "htmlTitle": "CSE 142 Winter 2007 -- Home",
+   "link": "http://www.cs.washington.edu/education/courses/cse142/07wi/",
+   "displayLink": "www.cs.washington.edu",
+   "snippet": "Also, we've anonymously put every Wolf class up online, so that if you want to   play your Wolf against another student's wolf, you can do so. ...",
+   "htmlSnippet": "Also, we&#39;ve anonymously put every \u003cb\u003eWolf\u003c/b\u003e class up online, so that if you want to \u003cbr\u003e  play your \u003cb\u003eWolf\u003c/b\u003e against another student&#39;s \u003cb\u003ewolf\u003c/b\u003e, you can do so. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "HUJUub1Vxv4J"
+  }
+ ]
+}
