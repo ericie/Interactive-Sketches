@@ -29,8 +29,8 @@ $(function(){
 	var spider = new Spider();
 	//var main = new Main();
 	var main = MainController;
-
-
+	
+	
 	var t1 = new Term({term:"Terminator"});
 	var t2 = new Term({term:"Axl Rose"});
 	var t3 = new Term({term:"Sad"});
@@ -40,28 +40,7 @@ $(function(){
 	var termsView = new TermCollectionView();
 	var termsControl = new TermCollectionController(main,terms,termsView);
 
-	//var termView = new TermView();
-
-	/*
-	var inactiveTerms = terms.filter(function(t) {
-		return t.get("active") != true;
-	});
-	*/
-
-	//var inactiveTerms = terms.inactive();
-	//var activeTerms = terms.active();
-	//var que = terms.que();
-
-	/*
-	termCollectionView.addList("Inactive Terms", inactiveTerms);
-	termCollectionView.addList("Active Terms", activeTerms);
-	termCollectionView.addList("Que", que);
-
-	termCollectionView.update();
-	*/
-
 	main.init(terms, "outline");
-	//MainController.init();
 
 });
 

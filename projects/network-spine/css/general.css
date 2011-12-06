@@ -21,6 +21,12 @@ body.outline .app.outline {
 	display:block;
 }
 
+nav {
+	position:absolute;
+	bottom:0px;
+	right:15px;
+}
+
 #outline {
 	padding:10px;
 }
@@ -36,12 +42,25 @@ body.outline .app.outline {
 
 #outline .col ol{
 	border-top:1px solid #cccccc;
+	padding-left:0px;
 }
 #outline .col ol li{
+	clear:both;
+	padding-left:0px;
+	padding:5px;
+	list-style-position: inside;
 	border-bottom:1px dotted #dddddd;
 }
 
+.destroy { 
+	float:right;
+}
 /* OUTLINE STYLES */
 div.app.outline {
 	padding:5px 20px;
+}
+
+.outline_action {
+	padding:4px;
+	float:right;
 }

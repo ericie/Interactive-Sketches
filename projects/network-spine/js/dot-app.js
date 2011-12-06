@@ -1,13 +1,13 @@
 //app.js
 
-var Task = Spine.Model.sub();
+var Dot = Spine.Model.sub();
 
-Task.configure("Task", "name", "done");
+Dot.configure("Dot", "name", "done");
 
 // Persist with Local Storage
-Task.extend(Spine.Model.Local);
+Dot.extend(Spine.Model.Local);
 
-Task.extend({
+Dot.extend({
   active: function(){
     return this.select(function(item) {
       return !item.done;
@@ -29,9 +29,10 @@ Task.extend({
 });
 
 
-var Tasks = Spine.Controller.sub({ 
+var Dots = Spine.Controller.sub({ 
 	events: {
 		"change input[type=checkbox]": "toggle",
+    "click .activate": "activate",
 		"click .destroy": "destroyItem"
 	}, 
 	   
@@ -41,7 +42,6 @@ var Tasks = Spine.Controller.sub({
 	},
 
 	render: function(){
-    console.log(this.item);
 		this.replace($("#taskTemplate").tmpl(this.item));
 		return this;
 	},
@@ -56,6 +56,11 @@ var Tasks = Spine.Controller.sub({
 		this.item.save();
 	},
 
+  activate: function(){
+    console.log("Activate") ;
+    console.log(activeEl);
+  },
+
 	destroyItem: function(){
 		this.item.destroy();
 	}
@@ -63,7 +68,7 @@ var Tasks = Spine.Controller.sub({
 });
 
 
-var TaskApp = Spine.Controller.sub({
+var DotApp = Spine.Controller.sub({
     events: {
       "submit form": "create",
       "click  .clear": "clear"
@@ -71,36 +76,40 @@ var TaskApp = Spine.Controller.sub({
 
     elements: {
       ".items": "items",
-      "form input": "input"
+      "form input": "input",
+      "#que_col":"queEl",
+      "#active_col":"activeEl",
+      "#archive_col":"archiveEl"
     },
 
     init: function(){
-      Task.bind("create",  this.proxy(this.addOne));
-      Task.bind("refresh", this.proxy(this.addAll));
-      Task.fetch();
+      Dot.bind("create",  this.proxy(this.addOne));
+      Dot.bind("refresh", this.proxy(this.addAll));
+      Dot.fetch();
     },
 
     addOne: function(task){
-      var view = new Tasks({
+      var view = new Dots({
         item: task
       });
-      console.log(this.items);
       this.items.append(view.render().el);
     },
 
     addAll: function(){
-      Task.each(this.proxy(this.addOne));
+      Dot.each(this.proxy(this.addOne));
     },
 
     create: function(e) {
       e.preventDefault();
-      Task.create({name: this.input.val()});
+      console.log("Create");
+      console.log(view.render().act);
+      Dot.create({name: this.input.val()});
       this.input.val("");
     },
 
     clear: function(){
     	console.log("Destroy");
-		Task.destroyDone();
+      Dot.destroyDone();
     }
 
 });
@@ -108,8 +117,9 @@ var TaskApp = Spine.Controller.sub({
 
 $(function() {
 	console.log("Ready!");
-	return new TaskApp({
-		el: $("#tasks")
+	return new DotApp({
+		el: $("#queList"),
+    act: $("#active_col")
 	});
 });
 

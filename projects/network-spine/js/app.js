@@ -1,146 +1,183 @@
-//app.js
+var exports = this; 
 
 
-var Node = Spine.Model.sub();
-var ambLoop;
+//var spider = Spine.Class.create();
+//var main = spider.init();
 
-Node.configure( "Node", "state", "name", "query", "url", "keywords", "description" );
+// Persist with Local Storage
 
-Node.extend({
-	get_state: function(){
-		return this.keywords;
+
+var Dot = Spine.Model.sub();
+Dot.configure("Dot","name","connections","state","age");
+Dot.extend(Spine.Model.Local); // Local Storage
+Dot.extend({
+	activate: function() {
+		// TODO: Activation Code
 	},
-	toggle_state: function(){
-		if (this.state != true){
-			this.state = true;
-		} else {
-			this.state = false;
-		}
+	deactivate: function() {
+		// TODO: Deactivation Code
 	},
-	outline: function(){
-		return this.name;
+	transition: function() {
+		console.log("Trans!");
 	}
-
 });
-
-
-
-var AmbMode = Spine.Model.sub();
-
-AmbMode.configure( "keywords", "delay");
-
-AmbMode.extend({
-	init: function(){
-		console.log("AMB")
-		//this.set_time(1000);
-	},
-	set_time: function(_t){
-		console.log("set time");
-		/*
-		if (_t > 0){ 
-			this.delay = _t;
-		} else {
-			this.delay = 1000;
-		}
-		this.start();
-		*/
-	},
-	start: function(){
-		console.log("start");
-		ambLoop = setInterval(this.load, this.delay);
-	},
-	load: function(){
-		console.log("LOAD");
-	},
-	pause: function(){
-		if (this.state != true){
-			this.state = true;
-		} else {
-			this.state = false;
-		}
-	}
-
-});
-
-var AmbModes = Spine.Controller.sub({
-    events: {
-    	"load": "load"
-    },
-
-    elements: {
-    },
-
-    init: function(){
-		// Start Ambient Timer
-		AmbMode.bind("refresh change", this.proxy(this.render));
-
-		//this.item.bind("addOne", this.proxy(this.addOne));
-		console.log("AMB");
-
-    },
-
-    render: function(){
-    	//this.html(this.)
-    	console.log("Render Amb Mode")
-    	console.log(AmbMode.all());
-    },
-    addOne: function(t){
-    	console.log(t);
-    	console.log(this.input.val());
-    	return "You got it";
+Dot.bind('beep', 
+    function(){
+        console.log("BEEP BEEP!");
+        this.transition();
     }
+);
 
+//Dot.bind("create", function(rec){  
+  //rec.fetchUrl();  
+  //console.log("Dot Bind");
+  //console.log(rec);
+//});
+
+//exports.Dots = Spine.Controller.create({  
+var Dots = Spine.Controller.sub({   
+	events: {
+		"click .destroy": "destroy",  
+		"click .toggleStats": "toggleStats"  
+	},
+
+	proxied: ["render","remove"],
+	template: function(items){
+		return $("#dotTemplate").tmpl(items);  
+	},
+
+  init: function(){
+    this.item.bind("update", this.proxy(this.render));
+    this.item.bind("destroy", this.proxy(this.remove));
+  },
+	
+  //render: function(){  
+	//	this.el.html(this.template(this.item));  
+	//	return this;  
+	//},
+
+  activateOne: function(){
+    log("Activate 1", "Dots");
+  },
+
+  render: function(){
+    //console.log("Render");
+    console.log(this.item);
+    this.replace($("#dotTemplate").tmpl(this.item));
+    return this;
+  },
+
+  remove: function(){
+    this.el.remove();
+    this.release();
+  },
+
+	destroy: function(){
+		this.item.destroy();  
+	}
+});
+
+var QueList = Dots.sub({
+  
+});
+var ActiveList = Dots.sub({
+  elements: {
+    "#active_items": "items",
+  }
+});
+var ArchiveList = Dots.sub({
+  
+});
+
+var Spider = Spine.Model.sub();
+Spider.configure("Spider","displayState","activeList","queList","archiveList");
+Spider.extend(Spine.Model.Local); // Local Storage
+Spider.extend({
 });
 
 
-var amb;
-var SpiderApp = Spine.Controller.sub({
-    events: {
-    },
-
+var SpiderApp = Spine.Controller.sub({ 
+//exports.SpiderApp = Spine.Controller.create({
     elements: {
+      "#que_items": "items",
+      "form":   "form",
+      "input":  "input",
+      ".render_button": "render_button",
+      "#que_col": "queCol",
+      "#active_col": "actCol",
+      "#archive_col": "archCol"
     },
-	refs: {
-    	"amb": "This is Ref1"
-    	//,"amb": new AmbModes({})
+    events: {
+      "submit form": "create",
+      "click .render_button": "rend"
     },
+    //proxied: ["render", "addAll", "addOne"],
     init: function(){
-    	//console.log(this.refs.ref1);
-		console.log("Spider Init-2");
-		//var amb = new AmbMode({});
-		//console.log(this.refs.amb);
-		//this.refs.amb.add();
+      //Dot.bind("create",  this.addOne);
+      Dot.bind("create",  this.proxy(this.addOne));
+      Dot.bind("refresh",  this.proxy(this.addAll));
+      Dots.bind("activateOne", this.activateOne);
+      //Dot.bind("ambLoop",  this.proxy(this.ambLoop));
 
-		//console.log(amb.addOne());
-		console.log("--");
-		this.refs.amb = AmbMode.create();
-		this.refs.amb.load();
+      Dot.fetch();
 
-		this.addOne();
+      que = QueList.create();
     },
-
-    addOne: function(node){
-    	var n1 = Node.create({state:"que", name:"First Node" });
-		console.log(n1);
+    addOne: function(url){
+      var view = QueList.init({item: url});
+      this.items.append(view.render().el);
     },
 
     addAll: function(){
+      //Dot.each(this.addOne);
+      Dot.each(this.proxy(this.addOne));
     },
 
-    create: function(e) {
+    rend: function(){
+      //console.log("Render B");
     },
+    create: function(e){
+      e.preventDefault();
+      var value = this.input.val();
+      Dot.create({name: this.input.val()});
+      this.input.val("");
+    },
+    update: function(){
+      // Every Frame
+    },
+    ambLoop: function(){
+      // Add a new Term
+      console.log("Activate");
+      //console.log(Dot.first());
+      var nt = Dot.first();
+      //Spine.trigger('global_beep');
+      //Dots.bee();
+      Dot.trigger("beep", "some", "data");
+      //Dots.trigger("beep");
+      //Dots.beep();
 
-    clear: function(){
+      //log(que.activateOne(),"AmbLoop")
+      //que = QueList.activateOne();
+      //var newAct = Dot.first();
+      //newAct.beep();
+      //console.log(newAct);
+      //console.log("newAct");
     }
 });
+
 
 
 $(function() {
 	console.log("Ready!");
-	return new SpiderApp({
-		el: $("#outline")
+	var spider = new SpiderApp({
+		el: $("body")
 	});
+
+  var loop = setInterval(spider.update,60);
+  var ambLoop = setInterval(spider.ambLoop,2000);
+
 
 });
 
-//Node.create({state:"que", name:"nothing" });
+var active, que, archived;
+

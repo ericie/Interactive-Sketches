@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lists</title>
+  <link rel="stylesheet" href="css/general.css" type="text/css" charset="utf-8">
+
+  <script src="lib/json-js/json2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/jquery/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/jquery/jquery.tmpl.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/spine/spine.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/spine/local.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="js/dot-app.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Template Block -->
+  <script type="text/x-jquery-tmpl" id="taskTemplate">
+  <li class="item">
+      <span>${name}</span> <a href="#" class="activate outline_action">o</a><a href="#" class="destroy outline_action">x</a>
+  </li>
+  </script>
+
+</head>
+<body>
+
+  <div id="outline">
+    <section id="queList" class="col">
+      <h1>Que</h1>
+
+      <form>
+        <input type="text" placeholder="What needs to be done?">
+      </form>
+
+      <ol class="items">
+      </ol>
+
+    </section>
+
+    <section id="activeList" class="col">
+      <h1>Active</h1>
+
+      <div class="items">
+      </div>
+
+    </section>
+  </div>
+
+</body>
+</html>
