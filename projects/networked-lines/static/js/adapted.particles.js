@@ -9,12 +9,14 @@ var rad = 100;
 var particleList;
 var system;
 var particleColor;
-var systemSize = 250;
+var masterSystemSize = 80;
+var systemSize = masterSystemSize;
 var lots = true;
 
 var pcMode = false;
 var fadeStage = false;
-var grayScale = false;
+var clearStage = true;
+var grayScale = true;
 var dx = 2;
 var dy = 4;
 var lineColor = 'rgba(255,0,100,.2)';
@@ -27,37 +29,24 @@ function draw() {
 	// FOR PARICLES NOT LINES
 	//clear();
 	
+	if (clearStage){
+		wipe();
+	}	
+	if (fadeStage){
+		fade();	
+	}
+
 	// UPDATE PARTICLE SYSTEM
 	if (system){
 		system.update();
 	}
-		
-	// FOR FADING LINES
-	if (fadeStage){
-		fade();	
-	}
+
 }
 
 
 function initParticleSystem(){
 	system = new ParticleSystem();
 	system.init(systemSize);
-
-
-	//
-
-	/*
-	gui.add(params, 'rotSpeedY').min(rMin).max(rMax).step(rS).onFinishChange(function(){
-		// refresh based on the new value of params.interation
-		rotSpeedY = params.rotSpeedY;
-	})
-	gui.add(params, 'rotSpeedZ').min(rMin).max(rMax).step(rS).onFinishChange(function(){
-		// refresh based on the new value of params.interation
-		rotSpeedZ = params.rotSpeedZ;
-	})
-	*/
-
-	//
 }
 
 
@@ -74,21 +63,40 @@ ParticleSystem.prototype.init = function(_systemSize){
 }
 
 ParticleSystem.prototype.createParticle = function(){
-	var newParticle = new Particle();
+	var newParticle = new Particle(this.list.length);
 	newParticle.init();
 	this.list.push(newParticle);
 }
 
 ParticleSystem.prototype.update = function(){
 	var i = 0;
+
+	systemSize = this.list.length;
 	for(i = 0; i < systemSize-1; i++){
 		this.list[i].draw();
 	}
+
+}
+ParticleSystem.prototype.remove = function(_particle){
+
+}
+ParticleSystem.prototype.requestConnections = function(_id){
+	//return [1,2,3,4];
+	var _pickNum = Math.round(Math.random() * 2);
+	var _pList = [];
+	for (var i = 0; i < _pickNum; i++){
+		var _pNum = Math.round( Math.random() * this.list.length);
+		//console.log( this.list.length );
+		var _p = this.list[_pNum];
+		_pList.push(_p);
+	}
+	return _pList;
 }
 
 
-function Particle(){
+function Particle(_id){
 	// Particle
+	this.id = _id;
 }
 
 
@@ -98,24 +106,28 @@ Particle.prototype.init = function(){
 	this.y = Math.random() * HEIGHT;
 	this.vel = Math.random() * 5 + 1;
 	this.ang = Math.random() * (Math.PI);
-	this.diameter = Math.random() * 5 + 1;
 	this.oldX = this.x;
 	this.oldY = this.y;
-	this.speedModX = Math.random() * 20 + 8;
-	this.speedModY = Math.random() * 20 + 8;
-	this.speedModTargX = Math.random() * 3 + 2;
-	this.speedModTargY = Math.random() * 3 + 2;
+	this.speedModX = Math.random() * 12 + 16;
+	this.speedModY = Math.random() * 12 + 16;
+	this.speedModTargX = Math.random() * 10 + 10;
+	this.speedModTargY = Math.random() * 10 + 10;
 	this.maxSpeed = Math.random() * 20 + 5;
 	this.speedX = 0;
 	this.speedY = 0;
+	this.diam = Math.random() * 10 + 3;
+	this.oDiam = this.diam;
+	this.system = system;
+	this.connections = [];
+	this.connected = false;
+	this.stillFrame = 0;
+	this.alive = true;
 }
 
 Particle.prototype.draw = function(){
-	ctx.fillStyle = this.color;
-	
+
 	var _x = this.x;
 	var _y = this.y;
-	var _d = this.diameter;
 	var _vel = this.vel;
 	var _ang = this.ang;
 	var _smx = this.speedModX;
@@ -124,49 +136,60 @@ Particle.prototype.draw = function(){
 	var _sX = this.speedX;
 	var _sY = this.speedY;
 	
+	var connections = this.connections;
+
 	this.oldX = _x;
 	this.oldY = _y;
-	
-	var targSpeedX = (cursorX - _x)/this.speedModTargX;
-	var targSpeedY = (cursorY - _y)/this.speedModTargY;
-	
-	var maxSpeed = this.maxSpeed;
-	if (Math.abs(_sX) > maxSpeed){
-		if (_sX > 0){
-			_sX = maxSpeed;
-		} else {
-			_sX = 0 - maxSpeed;
-		}
-	}
-	if (Math.abs(_sY) > maxSpeed){
-		if (_sY > 0){
-			_sY = maxSpeed;
-		} else {
-			_sY = 0 - maxSpeed;
-		}
-	}
-	
-	_sX += (targSpeedX - _sX)/_smx;
-	_sY += (targSpeedY - _sY)/_smy;
-	
-	_x += _sX;
-	_y += _sY;
-	
-	this.speedX = _sX;
-	this.speedY = _sY;
-	
+	ctx.fillStyle = this.color;
+
 	this.x = _x;
 	this.y = _y;
 	this.vel = _vel;
 	this.ang = _ang;
 	
-	particleLine(this)
-	
+	//particleLine(this)
+
+	if (this.connected == false){
+		//this.connections = system.requestConnections(this.id);
+		this.connected = true;
+		//console.log(this.connections);
+	} else {
+		if (connections.length > 0){
+			for(var j = 0; j < connections.length; j++){
+				var curConn = connections[j];
+				if (curConn && curConn.x){
+					//if (!curConn){ console.log(i + "  " + connections); }
+					var _connectX = curConn.x;
+					var _connectY = curConn.y;
+					//connections[0]
+
+					if (this.id < 1){
+						//console.log(connections[0].x + " - " + this.id);
+					}
+
+					//console.log(_connectX);
+					ctx.strokeStyle = "rgba(0,0,0,0.1)"; 
+					ctx.beginPath(); 
+					ctx.moveTo(_x,_y);
+					ctx.lineTo(_connectX,_connectY);
+					ctx.closePath(); 
+					ctx.stroke();
+				}
+			}
+		}
+	}
+
+	particleCircle(this);
+
+}
+
+function particleCircle(p) {	
+	var _x = p.x;
+	var _y = p.y;
+    circle(_x,_y,p.diam);	
 }
 
 function particleLine(p) {
-	
-	
 	var _x = p.x;
 	var _y = p.y;
 	var _oldX = p.oldX;
@@ -175,7 +198,7 @@ function particleLine(p) {
 	if (p.colorTint > 5){
 		ctx.lineWidth = 1.2;	
 	}
-	ctx.strokeStyle = p.color;
+	//ctx.strokeStyle = p.color;
     ctx.beginPath();
     ctx.moveTo(_oldX,_oldY);
     ctx.lineTo(_x,_y);
@@ -190,7 +213,7 @@ function particleLine(p) {
 function setColor(targ){
 	if (grayScale){
 		var gryV = Math.round(Math.random()*100);
-		var gryA = (Math.random()*.35);
+		var gryA = (Math.random()*.35 + .05);
 		targ.color = 'rgba('+gryV+','+gryV+','+gryV+','+gryA+')';
 	} else {
 		var colorTint = Math.round(Math.random() * 7);
@@ -226,7 +249,7 @@ function setColor(targ){
 			_r = 255;
 			_g = 255;
 			_b = 255;
-			targ.color = 'rgba(255,255,255,'+_a+')';
+			targ.color = 'rgba(200,200,200,'+_a+')';
 		}
 		
 	}
@@ -237,8 +260,20 @@ function toggleFade(){
 	log("toggle fade");
 	if (fadeStage == false){
 		fadeStage = true;
+		clearStage = false;
+		$("#clearToggle").checked = false;
 	} else {
 		fadeStage = false;
+	}
+}
+
+function toggleClear(){
+	log("toggle fade");
+	if (clearStage == false){
+		clearStage = true;
+		fadeStage = false;
+	} else {
+		clearStage = false;
 	}
 }
 
@@ -258,13 +293,18 @@ function toggleColor() {
 	}
 }
 
+
+function toggleTarget() {
+	log("toggle Target");
+}
+
 function toggleAmount(){
 	if (lots == false){
 		lots = true;
-		systemSize = 150;
+		systemSize = masterSystemSize;
 	} else {
 		lots = false;
-		systemSize = 10;
+		systemSize = 20;
 	}
 	
 	initParticleSystem();

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spider</title>
+  <link rel="stylesheet" href="css/general.css" type="text/css" charset="utf-8">
+
+  <script src="lib/json-js/json2.js"></script>
+  <script src="lib/jquery/jquery-1.7.1.min.js"></script>
+  <script src="lib/jquery/jquery.tmpl.js"></script>
+  <script src="lib/keymaster.min.js"></script>
+
+  <script src="lib/spine/spine.js"></script>
+  <script src="lib/spine/ajax.js"></script>
+  <script src="lib/spine/list.js"></script>
+  <script src="lib/spine/local.js"></script>
+  <script src="lib/spine/manager.js"></script>
+  <script src="lib/spine/relation.js"></script>
+  <script src="lib/spine/route.js"></script>
+  <script src="lib/spine/tabs.js"></script>
+  <script src="lib/spine/tmpl.js"></script>
+
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Template Block -->
+  <script type="text/x-jquery-tmpl" id="dotTemplate">
+  <li class="item {{if done}}done{{/if}}">
+      <span class="i_name">${name}</span> <a class="destroy">x</a>
+      <span class="i_connect">${connections}</span>
+  </li>
+  </script>
+
+</head>
+<body>
+
+  <div id="views">
+  <div id="outline">
+    <section class="col" id="que_col">
+      <h1>Que</h1>
+      <form>
+        <input type="text" placeholder="What needs to be done?">
+      </form>
+      <ol class="items" id="que_items">
+      </ol>
+    </section>
+
+    <section class="col" id="active_col">
+      <h1>Active</h1>
+      <ol class="items" id="active_items">
+      </ol>
+    </section>
+
+    <section class="col" id="archived_col">
+      <h1>Archived</h1>
+      <ol class="items" id="arch_items">
+      </ol>
+    </section>
+    
+
+    <nav>
+      <ul>
+        <li><a class="pause_button" href="#pause">Pause/Play</a></li>
+        <li><a class="restart_button" href="#restart">Restart</a></li>
+        <li><a class="clear_all_button" href="#clear-all">Clear All</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,12 +1,5 @@
 var exports = this; 
 
-
-//var spider = Spine.Class.create();
-//var main = spider.init();
-
-// Persist with Local Storage
-
-
 var Dot = Spine.Model.sub();
 Dot.configure("Dot","name","connections","state","age");
 Dot.extend(Spine.Model.Local); // Local Storage
@@ -38,7 +31,8 @@ Dot.bind('beep',
 var Dots = Spine.Controller.sub({   
 	events: {
 		"click .destroy": "destroy",  
-		"click .toggleStats": "toggleStats"  
+		"click .toggleState": "toggleStats",
+    "actOne": "activateOne"
 	},
 
 	proxied: ["render","remove"],
@@ -49,6 +43,8 @@ var Dots = Spine.Controller.sub({
   init: function(){
     this.item.bind("update", this.proxy(this.render));
     this.item.bind("destroy", this.proxy(this.remove));
+    this.bind("activateOne", this.activateOne);
+    SpiderApp.bind("ambLoop", this.proxy(this.activateOne));
   },
 	
   //render: function(){  
@@ -59,7 +55,9 @@ var Dots = Spine.Controller.sub({
   activateOne: function(){
     log("Activate 1", "Dots");
   },
-
+  returnActive: function() {
+    
+  },
   render: function(){
     //console.log("Render");
     console.log(this.item);
@@ -121,7 +119,7 @@ var SpiderApp = Spine.Controller.sub({
 
       Dot.fetch();
 
-      que = QueList.create();
+      //que = QueList.create();
     },
     addOne: function(url){
       var view = QueList.init({item: url});
@@ -148,20 +146,15 @@ var SpiderApp = Spine.Controller.sub({
     ambLoop: function(){
       // Add a new Term
       console.log("Activate");
-      //console.log(Dot.first());
-      var nt = Dot.first();
-      //Spine.trigger('global_beep');
-      //Dots.bee();
-      Dot.trigger("beep", "some", "data");
-      //Dots.trigger("beep");
-      //Dots.beep();
-
-      //log(que.activateOne(),"AmbLoop")
-      //que = QueList.activateOne();
-      //var newAct = Dot.first();
-      //newAct.beep();
-      //console.log(newAct);
-      //console.log("newAct");
+      console.log(this.que);
+      //console.log(que);
+      //var nt = Dot.first();
+      //nt.trigger("beep", "some", "data");
+      //QueList.trigger("beep");
+      //QueList.activateOne();
+      //que.trigger("actOne");
+      //Dot.trigger("beep", "some", "data");
+      
     }
 });
 
@@ -169,9 +162,12 @@ var SpiderApp = Spine.Controller.sub({
 
 $(function() {
 	console.log("Ready!");
+  //var que = new QueList();
+  var que = QueList.create();
 	var spider = new SpiderApp({
-		el: $("body")
+		el: $("body"),
 	});
+  //spider.set(que:que);
 
   var loop = setInterval(spider.update,60);
   var ambLoop = setInterval(spider.ambLoop,2000);
@@ -179,5 +175,4 @@ $(function() {
 
 });
 
-var active, que, archived;
 
