@@ -1,0 +1,4 @@
+.project
+.settings
+site/*
+*node_modules

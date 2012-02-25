@@ -1,0 +1,593 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"div",
+				"div: <div>"
+			],
+			[
+				"iframe",
+				"iframe: <iframe>"
+			],
+			[
+				"solid",
+				"solid  (value)"
+			],
+			[
+				"margin",
+				"margin: margin: V H"
+			],
+			[
+				"p",
+				"position: position: type"
+			],
+			[
+				"h3",
+				"h3  (element)"
+			],
+			[
+				"padding",
+				"padding: padding-bottom: length"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"m",
+				"min-height:   (property)"
+			],
+			[
+				"back",
+				"background: background-repeat: r/r-x/r-y/n-r"
+			],
+			[
+				"background",
+				"background: background-color: name"
+			],
+			[
+				"h2",
+				"h2  (element)"
+			],
+			[
+				"a",
+				"a: <a href=\"mailto:\">"
+			],
+			[
+				"relative",
+				"relative"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"styl",
+				"style: <style>"
+			],
+			[
+				"900",
+				"900  (value)"
+			],
+			[
+				"s",
+				"background-size:   (property)"
+			],
+			[
+				"font",
+				"font: font: size font"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text: text-indent: length"
+			],
+			[
+				"Arial",
+				"sans-serif  (value)"
+			],
+			[
+				"H",
+				":Helvetica"
+			],
+			[
+				"A",
+				":Arial"
+			],
+			[
+				"l",
+				"left:   (property)"
+			],
+			[
+				"color",
+				"color: color: hex"
+			],
+			[
+				"rep",
+				"background-repeat:   (property)"
+			],
+			[
+				"li",
+				"list: list-style-type: other"
+			],
+			[
+				"list",
+				"list: list-style-type: other"
+			],
+			[
+				"width",
+				"width:   (property)"
+			],
+			[
+				"left",
+				"left:   (property)"
+			],
+			[
+				"z",
+				"z: z-index: index"
+			],
+			[
+				"re",
+				"background-repeat:   (property)"
+			],
+			[
+				"backgroun",
+				"background: background: color image repeat attachment position"
+			],
+			[
+				"ba",
+				"background: background-color: hex"
+			],
+			[
+				"min",
+				"min-height:   (property)"
+			],
+			[
+				"pos",
+				"position: position: type"
+			],
+			[
+				"hei",
+				"min-height"
+			],
+			[
+				"backg",
+				"background: background-color: hex"
+			],
+			[
+				"absolute",
+				"absolute  (value)"
+			],
+			[
+				"dashed",
+				"dashed  (value)"
+			],
+			[
+				"line",
+				"line-break"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Add Repository"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 464.28125
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/scripts/app.build.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/css/styles4.css",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/index4.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/index5.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/jquery.beta.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/jquery.alpha.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/main.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/main5.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/actions/actions.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/scripts/main.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/toxic-libs-1.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/actions/actions5.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/scripts/actions.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/DAT.GUI.min.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/toxi/THREE.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/index.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/scripts/require-jquery.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/require.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/lib/main4.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/css/styles2.css",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/index2.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/index3.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/css/style.css",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/scripts/jquery.alpha.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/r.js",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/demo/jquery-require-sample/webapp/app.html",
+		"/Users/eric_adapted/Documents/workspace/Google-MTV/upstairs_wall/prototypes/spider/e_netlines_2/demo/jquery-require-sample.zip",
+		"/Users/eric_adapted/Documents/workspace/jam/robseward-iPhone-Socket-Connection-Client-bd70bc1/README.md",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/crossdomain.xml",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/css/style (imac's conflicted copy 2012-01-07).css",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/contact/contact-form.php",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/contact/index.php",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/about/index.html",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/about/index (imac's conflicted copy 2012-01-07).html",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/index.html",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/projects/index.html~",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/img/link-under-off (imac's conflicted copy 2012-01-07).png",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/test/styles.css",
+		"/Users/eric_adapted/Dropbox-Personal/Dropbox/Documents/eric-eckhardt/css/style.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--page-press.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/mailchimp.html",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/mtd-bg-spangle1.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/mail_header_ribbon.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--homepage.tpl.php",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-related1.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/free_news.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--page-press.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--charity.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-mtd.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--pane-doll.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-accessories.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-where.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/press_subnav_bg.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane.html",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/page.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/html.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/actions.js",
+		"/Users/eric_adapted/Documents/workspace/og/ajax/submit.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/Tree.js",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-accessories.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/navigation.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-bookshelf.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-a-cat.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/tree.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/og.info",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/README.txt",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--bookshelf.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--pane-a-cat.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--panel-pane-games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/~views-view-unformatted--pane-bookshelf.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--bookshelf--pane-bookshelf.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--bookshelf.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--bookshelf.top.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/template.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/--meta/scratch.txt",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/config.rb",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel_pane_hair.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/page--games.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/mothership/mothershipstark/layout.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--system--main-menu.tpl.php",
+		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/eric_adapted/Documents/workspace/og/includes/image.inc",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/blocks.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/acc_over_button_on.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/html-reset.css",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu--menu-main.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/nodes.css",
+		"/Users/eric_adapted/Documents/workspace/og/--process-notes.md",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/Swing.js",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--game.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-accessories.html",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--block--4.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-related2.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/hair-cloud.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-comes-with.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/doll-next.png",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--doll-pane.tpl.php",
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-fields--detail.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/page.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel_pane_hair.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/images/nav-meet-on.png",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/block--menu--menu-main.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/block--system--main-menu.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/block--menu.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/images/images/hair-overlay.gif",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/images/hair-coming-soon.jpg",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/node--game.tpl.php",
+		"/Users/ericishiieckhardt/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/ericishiieckhardt/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/ericishiieckhardt/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/templates/test.tpl.php",
+		"/Users/ericishiieckhardt/Documents/workspace/og/sites/all/themes/og/README.txt"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/eric_adapted/Documents/workspace/CSI/comps-html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctCanvas",
+			"myCanvas",
+			"$",
+			"work",
+			"work-",
+			"\"image\"",
+			"closing",
+			"hand",
+			"mc-",
+			"mc-embe",
+			"mc_embed_signup",
+			"style",
+			"charity",
+			"mail",
+			"border",
+			"charity",
+			"panel-col-first",
+			"free_",
+			"_news",
+			"yellow",
+			"h2",
+			"free",
+			"panel-2col .panel-col-last ",
+			"panel-sidebar-first",
+			"arial",
+			"40px",
+			"text-shadow",
+			"footer",
+			"view-display-id-page_press",
+			"border-bottom",
+			"home_guide.png",
+			"default",
+			"69px",
+			"validate",
+			"90px",
+			"class=\"badge\"",
+			"}",
+			"18px",
+			"class=\"logo\"",
+			"nav-wrapper",
+			"console.",
+			"console.log",
+			"Tree",
+			"grid-accessories",
+			"#tree",
+			"tree-wrapper",
+			"home-rotate-bg",
+			"$(",
+			"$)",
+			"images/tree",
+			"images/",
+			"images/tree",
+			"doll-center",
+			"oll-center",
+			"min-height",
+			"-inner",
+			"inner",
+			"content",
+			"content-inner",
+			"wrapper",
+			"title",
+			"library",
+			"system",
+			"178",
+			"title",
+			"/a",
+			"center",
+			"182",
+			"node-teaser",
+			"repeat",
+			"region",
+			"param",
+			"return",
+			"block",
+			"leaf",
+			" {",
+			"h1",
+			"draggable",
+			"cloud_rotat",
+			"absolute",
+			"hover",
+			"h1",
+			"Teaser",
+			"swing",
+			"search",
+			"game",
+			"shared/download_buttons/get_flash_player.gif ",
+			"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif ",
+			"game",
+			"each",
+			"access",
+			"lliinnkk",
+			"full",
+			".section",
+			".menu",
+			"nav-book-on",
+			"hair-video",
+			"font-",
+			"buy",
+			"buy-",
+			"buy-link",
+			"blue",
+			"color:",
+			"arrow",
+			"-20px",
+			"src='\"",
+			"<img src='\"",
+			"navigation ul.menu li ul.menu",
+			"region-footer",
+			".region-footer",
+			".png\");",
+			"hover",
+			"nav-",
+			"hover",
+			"wall",
+			"foreach",
+			"!empty",
+			"each",
+			"text-inden",
+			"nav-hair",
+			"nav-",
+			"background-image",
+			"hair-coming-soon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/sites/all/themes/og/images/tree/",
+			"/images/tree/",
+			"images/tree/",
+			"src='/\"",
+			"<img src='/\"",
+			"-on.png\");"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"views-view-fields--",
+				"og/templates/views-view-fields--panel-pane-games.tpl.php"
+			],
+			[
+				"lay",
+				"og/css/layout-fixed.css"
+			],
+			[
+				"",
+				"og/css/blocks.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true
+}
