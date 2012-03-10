@@ -147,7 +147,7 @@
 			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
 			"settings":
 			{
-				"buffer_size": 2570,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -155,7 +155,31 @@
 			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
 			"settings":
 			{
-				"buffer_size": 5899,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-busy-lines/static/js/adapted.particles.js",
+			"settings":
+			{
+				"buffer_size": 6639,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-dies/static/js/adapted.particles.js",
+			"settings":
+			{
+				"buffer_size": 7400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/draw/index.html",
+			"settings":
+			{
+				"buffer_size": 8247,
 				"line_ending": "Unix"
 			}
 		}
@@ -204,11 +228,16 @@
 	},
 	"file_history":
 	[
-		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/draw/libs/Vector2.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/index.html",
-		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/css/styles.css",
-		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/index.html",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-dies/static/js/adapted.library.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-dies/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/css/styles.css",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-busy-lines/static/js/adapted.particles.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-busy-lines/static/js/adapted.library.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/index.html",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/many-lines/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/static/js/adapted.library.js",
@@ -326,12 +355,7 @@
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/html-reset.css",
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/tree.css",
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--homepage.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-a-cat.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu--menu-main.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/nodes.css",
-		"/Users/eric_adapted/Documents/workspace/og/--process-notes.md",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css"
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-a-cat.tpl.php"
 	],
 	"find":
 	{
@@ -342,6 +366,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects",
 			"dot-app.js",
 			"",
 			"<open folders>"
@@ -352,6 +377,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mouse",
+			"create",
+			"update",
+			"bg",
+			"graphic",
+			"graphics",
+			"buffer",
+			"bg",
+			"context",
+			"bg",
+			"clear",
+			"draw",
+			"buffer",
+			"Make Connection",
+			"stillFrame",
+			"alive",
+			"draw",
+			"alive",
+			"remove",
+			"stillFrame",
+			"grow",
+			"buffer",
+			"request",
+			"stillFrame",
+			"still",
+			"request",
+			"colorTint",
+			"setColor",
+			"color",
+			"random",
+			"250",
 			"requestConn",
 			"request",
 			"color",
@@ -448,38 +504,7 @@
 			"dots",
 			"Dots",
 			"dots",
-			"DotsList",
-			"items",
-			"console.log",
-			"init",
-			"util",
-			"addAll",
-			"remove",
-			"destroy",
-			"apply",
-			"proxy",
-			"addOne",
-			"items",
-			"dotsList",
-			"render:",
-			"template",
-			"append",
-			"addOne",
-			"append",
-			"dotTemplate",
-			"submit",
-			"create",
-			"spider",
-			" type=\"text/javascript\" charset=\"utf-8\"",
-			" type=\"text/javascript\" charset=\"utf-8\"\"\"",
-			" type=\"text/javascript\" charset=\"utf-8\"",
-			"render",
-			"input",
-			"activate",
-			"elements",
-			".js",
-			".que",
-			"this.q"
+			"DotsList"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -501,7 +526,6 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
@@ -509,15 +533,15 @@
 					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
 					"settings":
 					{
-						"buffer_size": 2570,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1614,
-								1616
+								0,
+								0
 							]
 						],
 						"settings":
@@ -527,7 +551,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 724.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -537,7 +561,7 @@
 					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
 					"settings":
 					{
-						"buffer_size": 5899,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -555,6 +579,87 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-busy-lines/static/js/adapted.particles.js",
+					"settings":
+					{
+						"buffer_size": 6639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3193,
+								3764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/network-dies/static/js/adapted.particles.js",
+					"settings":
+					{
+						"buffer_size": 7400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1811,
+								1483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/draw/index.html",
+					"settings":
+					{
+						"buffer_size": 8247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1968,
+								1968
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3125.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
