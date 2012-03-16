@@ -72,7 +72,7 @@ function init() {
 	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 10000 );
 	//camera = new THREE.OrthographicCamera(  window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2, 1, 1000 );
 	camera.position.y = -100;
-	camera.position.z = 1400;
+	camera.position.z = 900;
 
 	scene = new THREE.Scene();
 
@@ -85,10 +85,10 @@ function init() {
 		var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, opacity: 0.9 } ) );
 		object.position.x = Math.random() * 800 - 400;
 		object.position.y = Math.random() * 800 - 400;
-		object.position.z = 400 + (Math.random() * 10);
-		object.scale.x = 1;		//Math.random() * 2 + 1;
-		object.scale.y = 1; 	//Math.random() * 2 + 1;
-		object.scale.z = .2;	//Math.random() * 2 + 1;
+		object.position.z = 400;
+		object.scale.x = .2; //Math.random() * 2 + 1;
+		object.scale.y = .2; //Math.random() * 2 + 1;
+		object.scale.z = .2; //Math.random() * 2 + 1;
 
 		// RANDOM EVERYTHING
 		/*
@@ -129,7 +129,7 @@ function init() {
 }
 
 function onDocumentMouseDown( event ) {
-	console.log("MouseDown");
+
 	event.preventDefault();
 
 	var vector = new THREE.Vector3( ( event.clientX / window.innerWidth ) * 2 - 1, - ( event.clientY / window.innerHeight ) * 2 + 1, 0.5 );
@@ -140,7 +140,7 @@ function onDocumentMouseDown( event ) {
 	var intersects = ray.intersectScene( scene );
 
 
-	/*<a href="mailto:joe@example.com?subject=feedback" "email me">email me</a>
+	/*
 	var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, opacity: 0.9 } ) );
 		object.position.x = Math.random() * 800 - 400;
 		object.position.y = Math.random() * 800 - 400;
@@ -153,16 +153,26 @@ function onDocumentMouseDown( event ) {
 	if ( intersects.length > 0 ) {
 		console.log(intersects);
 		new TWEEN.Tween( intersects[ 0 ].object.scale ).to( {
-			x: 3,
-			y: 2.5 }, 1500 )
+			z: 100 }, 2000 )
 		.easing( TWEEN.Easing.Elastic.EaseOut).start();
-
-		new TWEEN.Tween( intersects[ 0 ].object.position ).to( {
-			z: 600 }, 1500 )
-		.easing( TWEEN.Easing.Elastic.EaseOut).start();
-
 	}
 
+	/*
+	if ( intersects.length > 0 ) {
+		console.log(intersects);
+		new TWEEN.Tween( intersects[ 0 ].object.position ).to( {
+			x: Math.random() * 800 - 400,
+			y: Math.random() * 800 - 400,
+			z: Math.random() * 800 - 400 }, 2000 )
+		.easing( TWEEN.Easing.Elastic.EaseOut).start();
+
+		new TWEEN.Tween( intersects[ 0 ].object.rotation ).to( {
+			x: ( Math.random() * 360 ) * Math.PI / 180,
+			y: ( Math.random() * 360 ) * Math.PI / 180,
+			z: ( Math.random() * 360 ) * Math.PI / 180 }, 2000 )
+		.easing( TWEEN.Easing.Elastic.EaseOut).start();
+	}
+	*/
 }
 
 //
