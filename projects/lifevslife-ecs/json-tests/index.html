@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>  
+		<meta charset="utf-8">
+		<title>JSON Test 1</title>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">google.load("jquery", "1");</script>
+		
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+				
+				var boardsLoaded = false;
+				var board1;
+				var board2;
+				
+				
+				$.ajax({
+						url: "match1.json",
+						global: false,
+						type: "GET",
+						dataType: "json",
+					success: function(data, msg){
+				        //alert("MSG: "+msg);
+						log("Board Loading = "+msg);
+						boardsLoaded = true;
+
+						$.each(data.board, function(i,item){
+							if ( i == 0){
+								board1 = item;
+							} else if ( i == 1){
+								board2 = item;
+							} else {
+								return false;
+							}
+						});
+						
+						startBoards();
+						//alert("Board1: "+data.board.cells[1]);
+						//alert("Board2: "+data.board.cells[2]);
+					}
+				});
+				
+				function startBoards(){
+					log("Start the Game");
+				}
+				
+				function log(msg){
+					console.log(msg);
+				}
+			});
+
+			
+		</script>
+		
+		<meta name="description" content="" />  
+		<meta name="keywords" content="" />
+		<meta name="robots" content="" />
+		
+	</head>
+	<body>
+	</body>
+</html>

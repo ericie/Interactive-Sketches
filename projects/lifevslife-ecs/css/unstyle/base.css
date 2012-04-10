@@ -1,0 +1,279 @@
+body {
+	background-color: #ffffff;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-size:.89em;
+}
+
+.maincolumn {
+	position:relative;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 12px;
+	line-height: 1.4;
+	margin-top:0px;
+}
+p { line-height: 1.6; }
+
+.hidden {
+	display:none;
+}
+
+#work-list {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#sidebar {
+	width:300px;
+	position:fixed;
+	top:0px;
+	left:10px;
+}
+#sidebar ul {
+	border-top-style: solid;
+	border-top-color: #bbc0c8;
+	border-top-width: 1px;
+	width:270px;
+	padding-top:5px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+#sidebar ul li {
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 4px;
+	margin-left: 0px;
+	list-style-type: none;
+}
+#footer {
+	clear:both;
+	margin-left:300px;
+	padding-left:5px;
+	padding-top:5px;
+	margin-top:40px;
+	border-top-style: solid;
+	border-top-color: #bbc0c8;
+	border-top-width: 1px;
+}
+#content {
+	margin-left:300px;
+	margin-top:77px;
+}
+
+
+
+#logo img {
+}
+#logo {
+	padding-top:2px;
+	padding-bottom:10px;
+	padding-left:4px;
+	/*
+	padding-top:23px;
+	padding-bottom:14px;
+	padding-left:32px;
+	*/
+}
+#info .item-description { margin-top:5px; float:left;}
+#info .item-media { margin-top:7px; }
+#news p{
+	margin-top:2px;
+	padding-top:0px;
+	margin-bottom:25px;
+}
+.news-description {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#news h4 {
+	font-weight:100;
+	font-size:14px;
+}
+#news img { margin-top:4px; }
+#news div div > h4 { margin-top:-2px; }
+
+h4 {
+	margin:0px;
+}
+h5 {
+	margin:0px;
+	font-size:11px;
+	font-weight:100;
+}
+.text-item {
+	padding-bottom:0px;
+}
+p:first-child {
+	margin-top:0px;
+}
+
+p.description-meta {
+	font-size:11px;
+}
+h3 {
+	/*text-transform: uppercase;*/
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	margin:0px;
+	margin-top:-2px;
+	padding:0px;
+	padding-left:5px;
+}
+
+.info-item {
+	padding-top:0px;		
+	padding-left: 0px;
+	padding-bottom:0px;
+	border-width: 0px;
+}
+
+.info-item .item-description { 
+	padding-left:0px;
+}
+.info-item h3 {
+	margin:0px;;
+	font-weight: 100;
+	text-transform: lowercase;
+	font-size:11px;
+}
+
+
+.work-item h3{
+	cursor:hand;
+	left: 0px;   
+	top: 8px;  
+	position: absolute;  
+	cursor:pointer;
+}
+.work-item .item-description { margin-right:24px; margin-top: 28px; float:left; margin-left:5px; width: 280px;}
+.work-item {
+	border-top-style: solid;
+	border-top-color: #bbc0c8;
+	border-top-width: 1px;
+	position:relative;
+	display:block;
+	margin-left: 0px;
+	list-style-type: none;
+	clear:both;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top:3px;
+	padding-bottom:0px;
+}
+.work-item div { 
+	padding:0px; overflow: hidden;
+}
+
+
+#news h3{
+	font-weight: 100;
+}
+h1, h2, h3, h4, h5 {
+}
+
+a { 
+	color:blue; text-decoration:none; border-bottom:1px dotted blue; 
+}
+a:hover, a.current { 
+	color:#ffffff;
+	background-color:blue;
+}
+
+.hover { 
+	cursor: pointer;
+}
+
+.item-body { 
+	margin-left:0px;
+	padding-left:0px;
+	margin-top:5px;
+	padding-left:5px;
+	padding-top:0px;
+	height:auto;
+	position:relative;
+}
+.big-image {
+	display:none;
+}
+.little-image {
+
+}
+.item-media { 
+	position:relative; 
+}
+
+
+
+.item-media p, .news-item p{
+	max-width:480px;
+	clear:both;
+}
+#info p {
+	max-width:none;
+}
+#info .item-description {
+	margin-top:7px;
+}
+.news-item hr {
+	width:480px;
+	text-align:left;
+	margin-left:0px;
+	margin-top:5px;
+	margin-bottom:20px;
+	color: #bbc0c8;
+}
+
+.news-item:last-child hr {
+	display:none;
+}
+
+.news-media-list {
+	float:left;
+	height:auto;
+}
+.news-media-list img{
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+
+.media-list {
+	float:left;
+	height:auto;
+}
+.media-list img{
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.fade {
+	display:none;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:15px;
+	/*background-position: bottom left;*/
+	background-repeat: repeat-x;
+	background-image: url(../template/fade15.png);
+}
+
+.cyan { background-color:cyan; }
+.yellow { background-color:yellow; }
+.green { background-color:green; }
+.orange { background-color:orange; }
+.lime { background-color:lime; }
+.red { background-color:red; }
+.violet { background-color:violet; }
+.white { background-color:white; }
+.magenta { background-color:magenta; }
+.pink { background-color:pink; }
+.blue { background-color:blue; }
+.tan { background-color:tan; }

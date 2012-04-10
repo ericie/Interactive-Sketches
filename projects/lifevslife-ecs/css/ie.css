@@ -1,0 +1,25 @@
+.news-item hr, hr {
+	height:1px;
+	border-width:0;
+	color:#666666;
+}
+
+ul {
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	border-bottom-width: 1px;
+}
+li {
+	border-top-style: solid;
+	border-top-color: #666666;
+	border-top-width: 2px;
+	position:relative;
+	display:block;
+	margin-left: 0px;
+	list-style-type: none;
+	clear:both;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top:3px;
+	padding-bottom:0px;
+}
