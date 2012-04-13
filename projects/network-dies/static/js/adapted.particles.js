@@ -9,7 +9,7 @@ var rad = 100;
 var particleList;
 var system;
 var particleColor;
-var systemSize = 250;
+var systemSize = 100;
 var lots = true;
 
 var pcMode = false;
@@ -90,18 +90,9 @@ ParticleSystem.prototype.update = function(){
 
 	systemSize = this.list.length-1;
 	for(i = systemSize; i > 0; i--){
-		//this.list[i].draw();
-		//if (i < 2){
-		//	console.log(this.list[i].diam + "   " + this.list[i].alive);	
-		//}
 		if (this.list[i].alive === false){
 			var dead = this.list[i];
-			//console.log("List1: "+ this.list.length);
-			//var _p1 = this.list.splice(0,(i-1));
-			//var _p2 = this.list.splice((i+1),this.list.length);
 			this.list.remove(i);
-			//list = _.without(this.list, dead);
-			//console.log("List2: "+ this.list.length);
 		}
 	}
 
@@ -138,8 +129,8 @@ function Particle(_id){
 Particle.prototype.init = function(){
 	console.log("INIT");
 	setColor(this);
-	this.x = Math.random() * WIDTH;
-	this.y = Math.random() * HEIGHT;
+	this.x = Math.random() * (WIDTH/2) + (WIDTH/4);
+	this.y = Math.random() * (HEIGHT/2) + (HEIGHT/4);
 	this.vel = Math.random() * 5 + 1;
 	this.ang = Math.random() * (Math.PI);
 	this.oldX = this.x;

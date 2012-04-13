@@ -41,7 +41,7 @@ function init() {
     //ctx.globalCompositeOperation = source-over;
 
 
-	intervalId = setInterval(draw, 1);
+	intervalId = setInterval(draw, 30);
 	return intervalId;
 
 }
