@@ -143,29 +143,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
-			"settings":
-			{
-				"buffer_size": 2570,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
-			"settings":
-			{
-				"buffer_size": 5899,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 343.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"Snippet: ",
+				"Snippet: jQuery ready function"
+			],
 			[
 				"html",
 				"Snippet: html"
@@ -187,7 +175,7 @@
 				"Package Control: Discover Packages"
 			]
 		],
-		"width": 561.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -204,11 +192,31 @@
 	},
 	"file_history":
 	[
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/boxes.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/utility.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/many-lines/static/js/adapted.particles.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/assets.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/screen2.html",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/screen1.html",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/screen1.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/screens.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/messages.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/pages.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/js/screen2.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04/css/main.css",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/lifevslifejs/life/js/adapted.grid.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_03/index.html",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_03/js/DragControls.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_03/js/actions.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_03/js/ambient.js",
+		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_03/ambient1.html",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_libs/jquery/jquery-1.7.1.min.js",
+		"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_libs/utils/keymaster.min.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/index.html",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/css/styles.css",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/index.html",
-		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/many-lines/static/js/adapted.particles.js",
 		"/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/cloud/static/js/adapted.library.js",
@@ -311,27 +319,7 @@
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel_pane_hair.tpl.php",
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-games.tpl.php",
 		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/page--games.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/mothership/mothershipstark/layout.css",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/js/actions.js",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--system--main-menu.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/html.tpl.php",
-		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
-		"/Users/eric_adapted/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--panel-pane-accessories.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/template.php",
-		"/Users/eric_adapted/Documents/workspace/og/includes/image.inc",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/blocks.css",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/images/acc_over_button_on.png",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/html-reset.css",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/tree.css",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/node--homepage.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--pane-a-cat.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/block--menu--menu-main.tpl.php",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/nodes.css",
-		"/Users/eric_adapted/Documents/workspace/og/--process-notes.md",
-		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/css/layout-fixed.css"
+		"/Users/eric_adapted/Documents/workspace/og/sites/all/themes/og/templates/views-view-unformatted--.tpl.php"
 	],
 	"find":
 	{
@@ -339,9 +327,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/eric_adapted/Documents/workspace/Interactive Sketches/projects/g_table/table_04",
 			"dot-app.js",
 			"",
 			"<open folders>"
@@ -352,6 +341,52 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"addPage",
+			"Message",
+			"message",
+			"Message",
+			"sendMessage",
+			"sendMesage",
+			"receiveMessage",
+			"Message",
+			"postMessage",
+			"messages.js",
+			"initParticleSystems",
+			"loadScreen",
+			"background",
+			"switch",
+			"openScreen",
+			"checkEdges",
+			"boxes.js",
+			"zSet",
+			"randomPosi",
+			"this.plane",
+			"offScreen",
+			"drag",
+			"geomCube",
+			"screen1",
+			"screen1 ",
+			"window.",
+			"pop",
+			"initParticleSystems",
+			"switch",
+			"requestAnimationFrame",
+			"\"",
+			"random",
+			"range",
+			"Particle",
+			"ParticleSystem",
+			"-scree",
+			"scree",
+			"url(images",
+			"console.",
+			"console.log",
+			"calc",
+			"objects",
+			"picking",
+			"ray",
+			".speed",
+			"speed.x",
 			"requestConn",
 			"request",
 			"color",
@@ -433,53 +468,7 @@
 			"beep",
 			"dot.beep",
 			"bee",
-			"g beep",
-			"bee",
-			"bind",
-			"create",
-			"QueList",
-			"que",
-			"Dot.",
-			"create",
-			"Que",
-			"	Que",
-			"activate",
-			"Dots",
-			"dots",
-			"Dots",
-			"dots",
-			"DotsList",
-			"items",
-			"console.log",
-			"init",
-			"util",
-			"addAll",
-			"remove",
-			"destroy",
-			"apply",
-			"proxy",
-			"addOne",
-			"items",
-			"dotsList",
-			"render:",
-			"template",
-			"append",
-			"addOne",
-			"append",
-			"dotTemplate",
-			"submit",
-			"create",
-			"spider",
-			" type=\"text/javascript\" charset=\"utf-8\"",
-			" type=\"text/javascript\" charset=\"utf-8\"\"\"",
-			" type=\"text/javascript\" charset=\"utf-8\"",
-			"render",
-			"input",
-			"activate",
-			"elements",
-			".js",
-			".que",
-			"this.q"
+			"g beep"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -487,6 +476,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"url(../images",
 			"Dot",
 			"src='/\"",
 			"<img src='/\"",
@@ -501,64 +491,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.library.js",
-					"settings":
-					{
-						"buffer_size": 2570,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1614,
-								1616
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 724.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/ericishiieckhardt/Documents/workspace/Interactive-Sketches/projects/networked-lines/static/js/adapted.particles.js",
-					"settings":
-					{
-						"buffer_size": 5899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -579,11 +518,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

@@ -1,0 +1,23 @@
+/* MAIN.CSS */
+body {
+	font-family: Monospace;
+	background-color: #f0f0f0;
+	margin: 0px;
+	overflow: hidden;
+}
+
+body.screen1 {
+	background-image:url(../images/bg-screen1.jpg);
+}
+
+body.screen2 {
+	background-image:url(../images/bg-screen2.jpg);
+}
+
+body.screen3 {
+	background-image:url(../images/bg-screen3.jpg);
+}
+
+body.screen4 {
+	background-image:url(../images/bg-screen4.jpg);
+}
