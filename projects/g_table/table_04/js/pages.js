@@ -43,13 +43,17 @@ ParticleSystem.prototype.init = function(_systemSize){
 }
 ParticleSystem.prototype.randActivate = function(){
 	var actNum = Math.round(Math.random() * this.systemSize);
-	//console.log(this);
-	//console.log(this.list);
 	this.list[actNum].activate();
 }
-ParticleSystem.prototype.createParticle = function(){
+ParticleSystem.prototype.createParticle = function(_received, _v){
 	var newPage = new Page();
-	newPage.init();
+	if(_received == true){
+		//console.log(_v);
+		newPage.receivePage(_v);
+	} else {
+		newPage.init();
+	}
+	
 	this.list.push(newPage);
 	
 }
@@ -70,8 +74,12 @@ var groundPlanes = [
 	{y:-300, z:-40, x:1500}
 ];
 
-var addPage = function(){
-	ambientPages.addPage();
+//var addPage = function(){
+//	ambientPages.addPage();
+//}
+
+var receivePage = function(_v){
+	ambientPages.createParticle(true, _v);	
 }
 
 /////////////////////////
@@ -87,6 +95,35 @@ Page.prototype.init = function(_init){
 	
 	this.planes = groundPlanes;
 	this.startShape();
+	this.repop = true;
+	scene.add(this.plane);
+}
+
+Page.prototype.receivePage = function(_v){
+	//console.log("Got Page");
+	this.active = true;
+	this.repop = false;
+
+	var c = _v.color;
+	console.log(_v.color);
+	this.dim = {h:45,w:35};
+	this.color = new THREE.Color( 0xff00ff );
+	this.color.setRGB(c.r,c.g,c.b);
+
+	this.material = new THREE.MeshBasicMaterial();
+	this.material.color = this.color;
+	
+	this.target = {};
+
+	///
+	this.geom = new THREE.PlaneGeometry(30, 50);
+	this.plane = new THREE.Mesh(this.geom,this.material);
+
+	this.plane.position.x = _v.position.x;
+	this.plane.position.z = _v.position.z;
+	this.plane.position.y = _v.position.y * -1;
+	this.velocity = new THREE.Vector3(_v.velocity.x, _v.velocity.y, _v.velocity.z);
+
 	scene.add(this.plane);
 }
 
@@ -148,7 +185,8 @@ Page.prototype.update = function(){
 	var p = this.plane;
 	//function debugAction(_self) {
 	var debugAction = function(_self) {
-		if (_self.active == true){
+		//console.log(_self);
+		if (_self.active == true && p.position){
 			_self.velocity.addSelf( new THREE.Vector3(0,.1,0) );
 			p.position.addSelf(_self.velocity);
 		}
@@ -163,7 +201,9 @@ Page.prototype.update = function(){
 		if (upScreen){
 			sendMessage(upScreen, this);
 		}
-		this.randomPos();
+		if (this.repop == true){
+			this.randomPos();
+		}
 	}		
 
 }

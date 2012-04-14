@@ -9,7 +9,7 @@ function sendMessage(_screen, _obj, _json){
 		type: "ambientPage",
 		color: _obj.color,
 		position: _obj.plane.position,
-		speed: _obj.plane.speed,
+		velocity: _obj.velocity,
 		rotation: _obj.plane.rotation,
 		scale: _obj.plane.scale
 	};
@@ -23,16 +23,13 @@ function sendMessage(_screen, _obj, _json){
 
 function receiveMessage(event)  
 {  
-  //console.log(event);
-  //console.log(JSON.parse(event.data));
   var newData = JSON.parse(event.data);
   if (newData.type == "ambientPage"){
 	//console.log(newData.type);
 	//TODO: Pass init values to AddPage function
-  }
+	receivePage(newData);
 
-  //console.log(newData);
-  //addBox(newData);
+  }
 
 }  
 window.addEventListener("message", receiveMessage, false);
