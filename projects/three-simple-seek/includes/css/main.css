@@ -1,0 +1,15 @@
+/* MAIN.CSS */
+body {
+	font-family: Monospace;
+	background-color: #f0f0f0;
+	margin: 0px;
+	overflow: hidden;
+	padding:0px;
+}
+div.fullHeight {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}

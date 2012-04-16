@@ -16,7 +16,7 @@ var colors = {
 
 // convert 255 colors to 0-1 range
 _.each(colors, function(num, key){ 
-	 console.log(colors[key]);
+	 //console.log(colors[key]);
 	 var r = colors[key][0] / 255;
 	 var g = colors[key][1] / 255;
 	 var b = colors[key][2] / 255;
@@ -24,6 +24,26 @@ _.each(colors, function(num, key){
 });
 
 
+var targets = [
+	{ pos: new THREE.Vector3(0, 0, 0), c:0xfff000  },
+	{ pos: new THREE.Vector3(120, 100, 0), c:0xfff000 },
+	{ pos: new THREE.Vector3(240, 200, 0), c:0xfff000 },
+	{ pos: new THREE.Vector3(360, 300, 0), c:0xfff000 }
+]
+
+var startTargets = function(){
+	//this.color = new THREE.Color( 0xff00ff );
+	_.each(targets, function(num, key){ 
+		var my = targets[key];
+		//var myColor = targets[key].c;
+		console.log(my.pos);
+		//var np = 
+		newPlane(20, 20, 1, my.pos, 0xff00ff);
+		//scene.add(ground4);
+		//var np
+	});
+
+}
 
 var staticPath = "images/";
 var ground = {
@@ -38,44 +58,27 @@ var assets = {
 		path: staticPath + "earth-1.png",
 		width: 1920,
 		height: 256,
-		pos: {x:0, y:-550, z:-10}
+		pos: {x:0, y:-640, z:-10}
 	},
 	ground2:{
 		path: staticPath + "earth-1.png",
 		width: 1920,
 		height: 256,
-		pos: {x:0, y:-500, z:-20}
+		pos: {x:0, y:-610, z:-20}
 	},
 	ground3:{
 		path: staticPath + "earth-1.png",
 		width: 1920,
 		height: 256,
-		pos: {x:0, y:-461, z:-30}
+		pos: {x:0, y:-581, z:-30}
 	},
 	ground4:{
 		path: staticPath + "earth-1.png",
 		width: 1920,
 		height: 256,
-		pos: {x:0, y:-430, z:-40}
+		pos: {x:0, y:-560, z:-40}
 	}
 }
-
-/*
-shelves.material.map = THREE.ImageUtils.loadTexture( bgs[curPack] );
-shelves = leftTT.addImage( bgs[curPack], frontTT.center, sceneDim.x, sceneDim.y );
-shelves.scale.set(1,1,1);
-
-var generateRandomDocument = function( useMap ){
-	if(useMap === undefined){
-		useMap = true;
-	}
-	var material = (useMap == true) ? new THREE.MeshLambertMaterial({map: textureManager.getRandom( ) }) : new THREE.MeshBasicMaterial({color: 0xff0000});//0xaaaaaa})
-	return new THREE.Mesh(
-		new THREE.PlaneGeometry(fileCabinet.grid.getCellWidth(),fileCabinet.grid.getCellHeight()),
-		material
-	);
-};
-*/
 
 var ground1, ground2, ground3, ground4;
 var groundStart = function(_n){
@@ -136,6 +139,25 @@ var groundStart = function(_n){
 			return;
 	}
 	
+}
+
+var newPlane = function(_h, _w, _s, _p, _c){
+	if (!_h) _h = 20;
+	if (!_w) _w = 20;
+	if (!_s) _s = 1;
+	if (!_c) _c = 0xfff000;
+	if (!_p) _p = new THREE.Vector3(0, 0, 0);
+
+	mat = new THREE.MeshBasicMaterial();
+	mat.color = new THREE.Color( _c );
+
+	var p = new THREE.Mesh(new THREE.PlaneGeometry(_w, _h),mat);
+	p.scale.set(_s,_s,_s);
+	p.position = _p;
+
+	scene.add(p);
+
+	return p;
 }
 
 // TODO: Add a bunch of pages

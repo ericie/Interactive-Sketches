@@ -1,7 +1,7 @@
 function openScreen(_num){
 	if (_num == 1){
 		if (!s1Status){
-			screen2 = window.open('screen2.html','screen2','width=1920,height=480'); 
+			screen2 = window.open('screen2.html','screen2','width=1920,height=1080'); 
 			upScreen = screen2;
 		}
 	}

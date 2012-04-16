@@ -26,42 +26,23 @@ function init() {
 
     container = document.createElement('div');
     document.body.appendChild(container);
-
+    $('div').addClass("fullHeight");
     scene = new THREE.Scene();
 
-    w.width = window.innerWidth;
-    w.height = window.innerHeight;
+    //w.width = window.innerWidth;
+    //w.height = window.innerHeight;
+    w.width = $("div.fullHeight").width();
+    w.height = $("div.fullHeight").height();
 
     camera = new THREE.PerspectiveCamera(70, w.width / w.height, 1, 10000);
     camera.position.z = 1000;
     scene.add(camera);
 
-    scene.add(new THREE.AmbientLight(0x505050));
-
-    var light = new THREE.SpotLight(0xffffff, 1.5);
-    light.position.set(0, 500, 2000);
-    light.castShadow = true;
-
-    light.shadowCameraNear = 200;
-    light.shadowCameraFar = camera.far;
-    light.shadowCameraFov = 50;
-
-    light.shadowBias = -0.000222;
-    light.shadowDarkness = 0.5;
-
-    light.shadowMapWidth = 1024;
-    light.shadowMapHeight = 1024;
-
-    scene.add(light);
-
     renderer = new THREE.WebGLRenderer({
         antialias: true
     });
     renderer.sortObjects = false;
-    renderer.setSize(window.innerWidth, window.innerHeight);
-
-    renderer.shadowMapEnabled = true;
-    renderer.shadowMapSoft = true;
+    renderer.setSize(w.width, w.height);
 
     container.appendChild(renderer.domElement);
 
@@ -96,6 +77,8 @@ function startScreen1(){
     groundStart(3);
     groundStart(4);
 
+    startTargets();
+    
     loadScreen(1);
 
     // Put in some Pages
