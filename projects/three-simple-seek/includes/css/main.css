@@ -1,7 +1,8 @@
 /* MAIN.CSS */
 body {
 	font-family: Monospace;
-	background-color: #f0f0f0;
+	/*background-color: #f0f0f0;*/
+	background-color: #333;
 	margin: 0px;
 	overflow: hidden;
 	padding:0px;
@@ -12,4 +13,7 @@ div.fullHeight {
 	position:absolute;
 	top:0px;
 	left:0px;
+	-moz-box-shadow: inset 0 0 10em #222;  
+	-webkit-box-shadow: inset 0 0 10em #222;   
+	box-shadow: inset 0 0 10em #222;
 }

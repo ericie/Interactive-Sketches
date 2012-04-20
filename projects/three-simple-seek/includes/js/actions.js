@@ -16,6 +16,15 @@ $(function() {
     animate();
 });
 
+/* 
+TODO:
+-----------------
++ Targets in the screen dimensions
++ Tween Type is changable with dropdown
++ Post to Open.Adapted
++ 
+*/
+
 var init = function() {
 
     container = document.createElement('div');
@@ -56,7 +65,7 @@ function render() {
 
 
 var seekGui = function() {
-  this.useTweens = false;
+  //this.useTweens = false;
   this.newPlane = function() { 
     //alert("Explode");
     var np = {
@@ -64,7 +73,14 @@ var seekGui = function() {
         height: 50,
         position: new THREE.Vector3(rangeNum(0,900),rangeNum(0,400),rangeNum(0,400))
     };
-    var newShape = addPlane(np, planeGeom, planeMat);
+    //this.newColor = Math.random() * 0x666666;
+    var tempColor = {
+        r: Math.random() * .5 + .5,
+        g: Math.random() * .5 + .5,
+        b: Math.random() * .5 + .5
+    }
+
+    var newShape = addPlane(np, planeGeom, planeMat, tempColor);
     //startSeek(newSeeker);
     var newSeeker = new Seeker(newShape);
     //newSeeker.set("Okay");
@@ -75,10 +91,10 @@ var seekGui = function() {
 
 
 startGui = function() {
-  var seekGuiPanel = new seekGui();
-  var gui = new dat.GUI();
-  gui.add(seekGuiPanel, 'useTweens');
-  gui.add(seekGuiPanel, 'newPlane');
+    var seekGuiPanel = new seekGui();
+    var gui = new dat.GUI();
+    //var modeSwitch = gui.add(seekGuiPanel, 'useTweens');
+    gui.add(seekGuiPanel, 'newPlane');
 };
 
 var startTargets = function (){
@@ -88,7 +104,8 @@ var startTargets = function (){
         var np = {
             width: 30,
             height: 50,
-            position: new THREE.Vector3(rangeNum(0,1900),rangeNum(0,800),rangeNum(0,400))
+            position: new THREE.Vector3(rangeNum(0,1900),rangeNum(0,800),rangeNum(0,400)),
+            rotation: 45
         };
         targets.push(addPlane(np, targGeom, targMat));
     }
@@ -96,42 +113,35 @@ var startTargets = function (){
 
 var baseObjects = function(){
     planeMat = new THREE.MeshBasicMaterial();
-    planeMat.color = new THREE.Color( 0xff00ff );
+    planeMat.color = new THREE.Color( Math.random() * 0x666666 );
     planeGeom = new THREE.PlaneGeometry(60, 60);
 
     targMat = new THREE.MeshBasicMaterial();
-    targMat.color = new THREE.Color( 0x000000 );
-    targGeom = new THREE.PlaneGeometry(20, 20);
+    targMat.color = new THREE.Color( 0x111111 );
+    targGeom = new THREE.PlaneGeometry(15, 15);
 }
 
 var tween1;
-console.log(TWEEN);
 
 var startSeekers = function(){
     console.log("Start Seekers");
     var position = { x : 0, y: 300 };
     var target = { x : 400, y: 50 };
-    //var target = { x : 400, y: 50 };
-    //tween = new TWEEN.Tween(position).to(target, 2000);
-    //tween1 = new TWEEN.Tween(position).to({x: 400}, 2000).onUpdate(update).start();
-    
-
 }
-
-
-
 
 var Seeker = function(_shape){
     console.log("New Seeker")
     this.targ = 0;
     this.shape = _shape;
 }
+
 var randomTarg = function(){
-    var rTarg = targets[ Math.round(Math.random()*targets.length-1) ];
-    console.log("--- ---");
-    console.log(rTarg);
+    var rTarg = targets[ Math.round(Math.random()*(targets.length-1) ) ];
     return rTarg;
-    //return {x:rTarg.x, y:rTarg.y, z:rTarg.z}
+}
+var animDone = function(_s, _m1, _m2){
+   console.log("DONE: "+ _m1);
+   //_s.target();
 }
 Seeker.prototype = {
 
@@ -142,13 +152,18 @@ Seeker.prototype = {
     },
     target: function(){
         var tObj = randomTarg();
-        var t = { x : 0, y: 300, z: 200 };
+        //var t = { x : 0, y: 300, z: 200 };
         var p = { x : this.shape.position.x, y: this.shape.position.y, z: this.shape.position.z };
-        tween1 = new TWEEN.Tween( { x: 50, y: 0, z:200, obj:this } )
-        .to( { x: tObj.position.x, y:tObj.position.y, z:tObj.position.z }, 2000 )
+        tween1 = new TWEEN.Tween( { x: p.x, y: p.y, z:p.z, obj:this } )
+        .to( { x: tObj.position.x, y:tObj.position.y, z:tObj.position.z-10 }, 2000 )
         .easing( TWEEN.Easing.Elastic.InOut )
+        .onComplete( function () { 
+            //animDone( this, "myParameter1", "myParameter2" ) 
+            this.obj.target();
+            //this.target();
+        })
         .onUpdate( function () {
-            console.log(this);
+            //console.log(this);
             
             this.obj.shape.position.x = this.x;
             this.obj.shape.position.y = this.y;
@@ -162,13 +177,23 @@ Seeker.prototype = {
     }
 }
 
-var addPlane = function(_v, _g, _m){
+var addPlane = function(_v, _g, _m, _c){
     var newPlane;
+    if (_c){
+        planeMat = new THREE.MeshBasicMaterial();
+        planeMat.color = new THREE.Color( 0x666666 );
+        planeMat.color.setRGB(_c.r, _c.g, _c.b);
+        _m = planeMat;
+    }
+
     newPlane = new THREE.Mesh(_g,_m);
 
     newPlane.width = _v.width;
     newPlane.height = _v.height;
     newPlane.position = _v.position;
+    if (_v.rotation){
+        newPlane.rotation.z = _v.rotation;
+    }
     scene.add(newPlane);
    // console.log(newPlane);
     return newPlane;
