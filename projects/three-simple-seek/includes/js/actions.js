@@ -104,7 +104,7 @@ var startTargets = function (){
         var np = {
             width: 30,
             height: 50,
-            position: new THREE.Vector3(rangeNum(0,1900),rangeNum(0,800),rangeNum(0,400)),
+            position: new THREE.Vector3(rangeNum(0,w.width*.75),rangeNum(0,w.height*.75),rangeNum(0,400)),
             rotation: 45
         };
         targets.push(addPlane(np, targGeom, targMat));
@@ -154,9 +154,12 @@ Seeker.prototype = {
         var tObj = randomTarg();
         //var t = { x : 0, y: 300, z: 200 };
         var p = { x : this.shape.position.x, y: this.shape.position.y, z: this.shape.position.z };
+        var dur = Math.random() * 3000 + 1000;
         tween1 = new TWEEN.Tween( { x: p.x, y: p.y, z:p.z, obj:this } )
-        .to( { x: tObj.position.x, y:tObj.position.y, z:tObj.position.z-10 }, 2000 )
-        .easing( TWEEN.Easing.Elastic.InOut )
+        .to( { x: tObj.position.x, y:tObj.position.y, z:tObj.position.z-10 }, dur )
+        //.easing( TWEEN.Easing.Sinusoidal.InOut )
+        .easing( TWEEN.Easing.Cubic.InOut )
+        //.easing( TWEEN.Easing.Elastic.InOut )
         .onComplete( function () { 
             //animDone( this, "myParameter1", "myParameter2" ) 
             this.obj.target();
