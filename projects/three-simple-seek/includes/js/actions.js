@@ -166,7 +166,7 @@ Seeker.prototype = {
             //this.target();
         })
         .onUpdate( function () {
-            //console.log(this);
+            console.log(this.y);
             
             this.obj.shape.position.x = this.x;
             this.obj.shape.position.y = this.y;
