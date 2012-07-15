@@ -9,3 +9,5 @@
 .DS_Store
 projects/.DS_Store
 projects/g_libs/madrobby-keymaster-c61b3fe.zip
+*.sublime-workspace
+*.sublime-project

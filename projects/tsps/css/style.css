@@ -1,0 +1,25 @@
+body {
+	background-color: #222;
+	color:white;
+	padding:0px;
+	margin:0px;
+	word-spacing:.06em;
+}
+
+#canvas {
+	position:absolute;
+	top:0px;
+	left:0px;
+	/*
+	height:100%;
+	width:100%;
+	*/
+}
+
+#canvasContainer {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
