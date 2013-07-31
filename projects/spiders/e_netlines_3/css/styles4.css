@@ -1,0 +1,23 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	padding:0px;
+}
+
+.full_wrapper {
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	background:green;
+}
+
+.full_content {
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	background:red;
+}
